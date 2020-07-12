@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-import sys
+from course_gen import main
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
@@ -20,8 +20,8 @@ def about():
 @app.route("/output", methods=['GET', 'POST'])
 def output():
     name = request.args.get('job')
-    print(name)
-    return render_template("output.html", title="About", name=name)
+    main(name)
+    return render_template(name + "op.html", title="Courses", name=name)
 
 
 # No caching at all for API endpoints.

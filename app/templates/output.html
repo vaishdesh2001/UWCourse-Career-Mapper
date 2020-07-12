@@ -1,5 +1,10 @@
 <html>
     <body>
-    <h2><center>{{name}}</center>></h2>
+    <script>
+        jQuery.get('http://localhost/foo.txt', function(data) {
+            alert(data);
+        });
+    </script>
+    <h2><center>{{name}}</center></h2>
     </body>
 </html>
