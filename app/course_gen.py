@@ -382,20 +382,21 @@ csv_header = tuple_csv[0]
 csv_data = tuple_csv[1]
 
 
-def main():
+def main(str_input):
+    return str_input
     # BRILLIANT
     # MATCH WITH THE FIRST MATCH YOU HAVE WITH THE CAREER MATCH!! BRILLIANT
     # this is where the job goes
-    str_input = "stock analyst"
-    # careers_found = ret_list_careers(str_input, url_gen(str_input))
-    # chosen = (which_job(job_choices(str_input, careers_found)))
-    all_comb = list_all_combs(str_input)
-    # df_job = map_career_name(all_comb)
-    print(map_career_desc(all_comb))
+    # str_input = "stock analyst"
+    # # careers_found = ret_list_careers(str_input, url_gen(str_input))
+    # # chosen = (which_job(job_choices(str_input, careers_found)))
+    # all_comb = list_all_combs(str_input)
+    # # df_job = map_career_name(all_comb)
+    # print(map_career_desc(all_comb))
     # skills = ret_skill_list(chosen)
     # if type(skills) == str:
     #     if skills.lower() == "no skill information found":
     #         return "we don't have the necessary information for this job. Pick another!"
 
 
-print(main())
+print(main("hello"))

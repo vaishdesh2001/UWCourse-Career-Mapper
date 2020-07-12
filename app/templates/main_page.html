@@ -24,7 +24,7 @@
 	    		</div>
 	  		</div>
        		<div style = "font-family: Courier; font-size: 40px; padding-left:0.5%; padding-top:1.25%;">
-            	<a href="{{url_for('about')}}" + >About</a>
+            	<a href="{{url_for('about')}}">About</a>
       		</div>
     	</div>
 		<header><h1 style="padding-top:0.5%; text-align: center; color: black; font-size: 40px;font-family: Courier; font-weight: bold;">
@@ -52,12 +52,9 @@
                 minLength: 2,
                 source: countries,	
                 updater:function (item) {
-				//item = selected item
-				//alert(item);
-				//window.location = "https://deshvenkatesh.pythonanywhere.com/Get%20Plotq?" + item;
-				var queryString = "?q=" + item;
-				window.location.href = "output.html" + queryString;
-    			}
+					//item = selected item
+					window.location = "{{url_for('output')}}" + "?job=" + item;
+				}
             });
     	</script>
 	</body>

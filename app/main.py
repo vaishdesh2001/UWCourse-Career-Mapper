@@ -1,4 +1,5 @@
-from flask import Flask, render_template, send_from_directory
+from flask import Flask, render_template, request
+import sys
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
@@ -8,13 +9,19 @@ app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba245'
 @app.route("/")
 @app.route("/home")
 def home_view():
-    return render_template("main_page.html", title = "homepage")
+    return render_template("main_page.html", title="homepage")
 
 
 @app.route("/about")
 def about():
     return render_template("about.html", title="About")
 
+
+@app.route("/output", methods=['GET', 'POST'])
+def output():
+    name = request.args.get('job')
+    print(name)
+    return render_template("output.html", title="About", name=name)
 
 
 # No caching at all for API endpoints.
@@ -25,3 +32,4 @@ def add_header(response):
     response.headers['Pragma'] = 'no-cache'
     response.headers['Expires'] = '-1'
     return response
+
