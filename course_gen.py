@@ -283,7 +283,7 @@ csv_data = tuple_csv[1]
 
 
 def main(job_selected):
-    nltk.data.path.append('./nltk_data/')
+    nltk.data.path.append('./nltk_data/corpora/')
     df_job = map_career_name(job_selected)
     df_desc = map_career_desc(job_selected)
     df_final = pd.concat([df_job, df_desc])
