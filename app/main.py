@@ -9,7 +9,7 @@ app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba245'
 @app.route("/")
 @app.route("/home")
 def home_view():
-    return render_template("main_page.html", title="Home")
+    return render_template("main_page.html", title="homepage")
 
 
 @app.route("/about")
@@ -20,9 +20,8 @@ def about():
 @app.route("/output", methods=['GET', 'POST'])
 def output():
     name = request.args.get('job')
-    # main(name)
-    # return render_template(name + "op.html", title="Courses", name=name)
-    return "hello world"
+    main(name)
+    return render_template(name + "op.html", title="Courses", name=name)
 
 
 # No caching at all for API endpoints.
