@@ -29,9 +29,39 @@ def process_csv(filename):
     return exampleData
 
 
+def ret_csv_data():
+    csv_rows = process_csv(os.path.join(".", "app", "all_data.csv"))
+    header = csv_rows[0]
+    data = csv_rows[1:]
+    return header, data
+
+
+def ret_csv_codes():
+    csv_rows = process_csv(os.path.join(".", "app", "Curricular subject areas with code.csv"))
+    header = csv_rows[0]
+    data = csv_rows[1:]
+    return header, data
+
+
+tuple_codes = ret_csv_codes()
+codes_header = tuple_codes[0]
+codes_data = tuple_codes[1]
+
+
+tuple_csv = ret_csv_data()
+csv_header = tuple_csv[0]
+csv_data = tuple_csv[1]
+
+
 def cell(row_idx, col_name):
     col_idx = csv_header.index(col_name)
     val = csv_data[row_idx][col_idx]
+    return val
+
+
+def cell_code(row_idx, col_name):
+    col_idx = codes_header.index(col_name)
+    val = codes_data[row_idx][col_idx]
     return val
 
 
@@ -98,13 +128,6 @@ def foi_skills(skills):
     data = {"skill name": filtered_skills, "factor of importance": imp_list}
     df_skills = df(data)
     return df_skills
-
-
-def ret_csv_data():
-    csv_rows = process_csv(os.path.join(".", "app", "all_data.csv"))
-    header = csv_rows[0]
-    data = csv_rows[1:]
-    return header, data
 
 
 def ret_lemmatized(in_string):
@@ -257,12 +280,74 @@ def map_career_desc(str_input):
     df_desc = df(dict_vals)
     df_desc = df_desc.sort_values(by=["prio", "list_fuzz"], ascending=[False, False])
     df_desc = df_desc.reset_index(drop=True)
-    print("SKIPPED", skip_val)
     return df_desc
+
+
+def map_career_codes(str_input):
+    list_area = []
+    list_abb = []
+    list_desc = []
+    list_fuzz = []
+    prio = []
+    skip_val = 0
+    list_words = str_input.lower().split(" ")
+    for i in range(len(codes_data)):
+        lemma_name = ret_lemmatized(cell_code(i, "subject area").lower())
+        if len(list_words) > 1:
+            if fuzz.token_sort_ratio(lemma_name.lower(), str_input) < 15:
+                continue
+        list_lemma = lemma_name.split(" ")
+        count = 0
+        for every_code in list_lemma:
+            for each in list_words:
+                if fuzz.token_sort_ratio(every_code, each.lower()) > 80:
+                    count += 1
+            for each in list_words:
+                if fuzz.token_sort_ratio(every_code.lower(), each.lower()) > 80:
+                    list_abb.append(cell_code(i, "abbreviation"))
+                    list_area.append(cell_code(i, "subject area"))
+                    prio.append(count)
+                    list_fuzz.append(fuzz.token_sort_ratio(every_code.lower(), each.lower()))
+
+    dict_vals = {"abb": list_abb, "sub area": list_area, "prio": prio, "list_fuzz": list_fuzz}
+    df_codes = df(dict_vals)
+    df_codes = df_codes.sort_values(by=["prio", "list_fuzz"], ascending=[False, False])
+    df_codes = df_codes.reset_index(drop=True)
+    return df_codes
+
+
+def map_code_df(str_input):
+    list_c = []
+    list_name = []
+    list_desc = []
+    prio = []
+    df_codes = map_career_codes(str_input)
+    main_codes = []
+    if len(df_codes) > 0:
+        for i in range(len(df_codes)):
+            main_codes.append(df_codes.at[i, "abb"])
+    if len(main_codes) > 0:
+        count = 0
+        for i in range(len(csv_data)):
+            for j in range(len(main_codes)):
+                if main_codes[j] in cell(i, "Code"):
+                    list_name.append(cell(i, "Name"))
+                    list_c.append(cell(i, "Code"))
+                    list_desc.append(cell(i, "Description"))
+                    prio.append(count)
+                    count += 1
+                    break
+
+    dict_vals = {"course": list_c, "name": list_name, "description": list_desc, "prio": prio}
+    df_abbs = df(dict_vals)
+    df_abbs = df_abbs.sort_values(by=["prio"], ascending=[True])
+    df_abbs = df_abbs.reset_index(drop=True)
+    return df_abbs
 
 
 def gen_html(str_input, df_job):
     # don't forget to add description
+    # still gotta do skills
     start = "<html><body><table><tr><th>course</th><th>name</th><th>description</th></tr>"
     for i in range(len(df_job)):
         start += "<tr>"
@@ -277,25 +362,21 @@ def gen_html(str_input, df_job):
     f.close()
 
 
-tuple_csv = ret_csv_data()
-csv_header = tuple_csv[0]
-csv_data = tuple_csv[1]
-
-
 def main(job_selected):
     nltk.data.path.append('./nltk_data/corpora/')
+    df_abbs = map_code_df(job_selected)
     df_job = map_career_name(job_selected)
     df_desc = map_career_desc(job_selected)
-    df_final = pd.concat([df_job, df_desc])
-    df_final = df_final.sort_values(by=["prio", "list_fuzz"], ascending=[False, False])
-    df_final = df_final.reset_index(drop=True)
-    df_final = df_final.reset_index(drop=True)
+    if len(df_abbs) > 0:
+        df_final = pd.concat([df_abbs, df_job, df_desc])
+    else:
+        df_final = pd.concat([df_job, df_desc])
     df_final = df_final.drop_duplicates(subset='course', keep="first")
-    df_final = df_final.sort_values(by=["prio", "list_fuzz"], ascending=[False, False])
     df_final = df_final.reset_index(drop=True)
+    print(df_final)
     gen_html(job_selected, df_final)
     # BRILLIANT
     # MATCH WITH THE FIRST MATCH YOU HAVE WITH THE CAREER MATCH
 
 
-print(main("astronomers"))
+main("aerospace engineer")
