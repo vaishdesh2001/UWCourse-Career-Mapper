@@ -286,13 +286,12 @@ def map_career_desc(str_input):
 def map_career_codes(str_input):
     list_area = []
     list_abb = []
-    list_desc = []
     list_fuzz = []
     prio = []
-    skip_val = 0
     list_words = str_input.lower().split(" ")
     for i in range(len(codes_data)):
         lemma_name = ret_lemmatized(cell_code(i, "subject area").lower())
+
         if len(list_words) > 1:
             if fuzz.token_sort_ratio(lemma_name.lower(), str_input) < 15:
                 continue
@@ -345,7 +344,7 @@ def map_code_df(str_input):
     return df_abbs
 
 
-def gen_html(str_input, df_job):
+def gen_html(original, df_job):
     # don't forget to add description
     # still gotta do skills
     start = "<html><body><table><tr><th>course</th><th>name</th><th>description</th></tr>"
@@ -357,13 +356,32 @@ def gen_html(str_input, df_job):
             break
 
     start += "</table></body></html>"
-    f = open(os.path.join(".", "app", "templates", str_input + "op.html"), "w", encoding="utf-8")
+    f = open(os.path.join(".", "app", "templates", original + "op.html"), "w", encoding="utf-8")
     f.write(start)
     f.close()
 
 
+def remove_and(str_input):
+    words = str_input.split(" ")
+    new_word = ""
+    for each in words:
+        if each[-4:] == "ists":
+            new_word += each[:-4] + " "
+        else:
+            new_word += each + " "
+    str_input = new_word
+
+    if "and" in words:
+        split = str_input.split("and")
+        str_input = split[0].strip() + " " + split[1].strip()
+    return str_input
+
+
 def main(job_selected):
     nltk.data.path.append('./nltk_data/corpora/')
+    original = job_selected
+    job_selected = remove_and(job_selected)
+    job_selected = job_selected.strip()
     df_abbs = map_code_df(job_selected)
     df_job = map_career_name(job_selected)
     df_desc = map_career_desc(job_selected)
@@ -373,10 +391,11 @@ def main(job_selected):
         df_final = pd.concat([df_job, df_desc])
     df_final = df_final.drop_duplicates(subset='course', keep="first")
     df_final = df_final.reset_index(drop=True)
-    print(df_final)
-    gen_html(job_selected, df_final)
+    gen_html(original, df_final)
     # BRILLIANT
     # MATCH WITH THE FIRST MATCH YOU HAVE WITH THE CAREER MATCH
 
 
-main("aerospace engineer")
+
+
+
