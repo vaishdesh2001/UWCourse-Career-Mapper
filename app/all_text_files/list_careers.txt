@@ -1,1112 +1,1083 @@
-aerospace engineering and operations technicians
-aerospace engineers
-agricultural engineers
-architects, except landscape and naval
-architectural and civil drafters
-architectural drafters
-automotive engineering technicians
-automotive engineers
-biochemical engineers
-biomedical engineers
-cartographers and photogrammetrists
-chemical engineers
-civil drafters
-civil engineering technicians
-civil engineers
-computer hardware engineers
-drafters, all other
-electrical and electronic engineering technicians
-electrical and electronics drafters
-electrical drafters
-electrical engineering technicians
-electrical engineering technologists
-electrical engineers
-electro-mechanical technicians
-electromechanical engineering technologists
-electronic drafters
-electronics engineering technicians
-electronics engineering technologists
-electronics engineers, except computer
-energy engineers
-engineering technicians, except drafters, all other
-engineers, all other
-environmental engineering technicians
-environmental engineers
-fire-prevention and protection engineers
-fuel cell engineers
-fuel cell technicians
-geodetic surveyors
-health and safety engineers, except mining safety engineers and inspectors
-human factors engineers and ergonomists
-industrial engineering technicians
-industrial engineering technologists
-industrial engineers
-industrial safety and health engineers
-landscape architects
-manufacturing engineering technologists
-manufacturing engineers
-manufacturing production technicians
-mapping technicians
-marine architects
-marine engineers
-marine engineers and naval architects
-materials engineers
-mechanical drafters
-mechanical engineering technicians
-mechanical engineering technologists
-mechanical engineers
-mechatronics engineers
-microsystems engineers
-mining and geological engineers, including mining safety engineers
-nanosystems engineers
-nanotechnology engineering technicians
-nanotechnology engineering technologists
-non-destructive testing specialists
-nuclear engineers
-petroleum engineers
-photonics engineers
-photonics technicians
-product safety engineers
-radio frequency identification device specialists
-robotics engineers
-robotics technicians
-solar energy systems engineers
-surveying and mapping technicians
-surveying technicians
-surveyors
-transportation engineers
-validation engineers
-water/wastewater engineers
-wind energy engineers
-actors
-art directors
-artists and related workers, all other
-athletes and sports competitors
-audio and video equipment technicians
-broadcast news analysts
-broadcast technicians
-camera operators, television, video, and motion picture
-choreographers
-coaches and scouts
-commercial and industrial designers
-copy writers
-craft artists
-dancers
-designers, all other
-directors- stage, motion pictures, television, and radio
-editors
-entertainers and performers, sports and related workers, all other
-fashion designers
-film and video editors
-fine artists, including painters, sculptors, and illustrators
-floral designers
-graphic designers
-interior designers
-interpreters and translators
-media and communication equipment workers, all other
-media and communication workers, all other
-merchandise displayers and window trimmers
-multimedia artists and animators
-music composers and arrangers
-music directors
-music directors and composers
-musicians and singers
-musicians, instrumental
-photographers
-poets, lyricists and creative writers
-producers
-producers and directors
-program directors
-public address system and other announcers
-public relations specialists
-radio and television announcers
-radio operators
-reporters and correspondents
-set and exhibit designers
-singers
-sound engineering technicians
-talent directors
-technical directors/managers
-technical writers
-umpires, referees, and other sports officials
-writers and authors
-building cleaning workers, all other
-first-line supervisors of housekeeping and janitorial workers
-first-line supervisors of landscaping, lawn service, and groundskeeping workers
-grounds maintenance workers, all other
-janitors and cleaners, except maids and housekeeping cleaners
-landscaping and groundskeeping workers
-maids and housekeeping cleaners
-pest control workers
-pesticide handlers, sprayers, and applicators, vegetation
-tree trimmers and pruners
-accountants
-accountants and auditors
-agents and business managers of artists, performers, and athletes
-appraisers and assessors of real estate
-appraisers, real estate
-assessors
-auditors
-budget analysts
-business continuity planners
-business operations specialists, all other
-buyers and purchasing agents, farm products
-claims adjusters, examiners, and investigators
-claims examiners, property and casualty insurance
-compensation, benefits, and job analysis specialists
-compliance officers
-cryptographers
-coroners
-cost estimators
-credit analysts
-credit counselors
-customs brokers
-energy auditors
-environmental compliance inspectors
-equal opportunity representatives and officers
-farm labor contractors
-financial analysts
-financial examiners
-financial quantitative analysts
-financial specialists, all other
-fraud examiners, investigators and analysts
-fundraisers
-government property inspectors and investigators
-human resources specialists
-insurance adjusters, examiners, and investigators
-insurance appraisers, auto damage
-insurance underwriters
-investment underwriters
-labor relations specialists
-licensing examiners and inspectors
-loan counselors
-loan officers
-logisticians
-logistics analysts
-logistics engineers
-management analysts
-market research analysts and marketing specialists
-meeting, convention, and event planners
-online merchants
-personal financial advisors
-purchasing agents, except wholesale, retail, and farm products
-regulatory affairs specialists
-risk management specialists
-security management specialists
-sustainability specialists
-tax examiners and collectors, and revenue agents
-tax preparers
-training and development specialists
-wholesale and retail buyers, except farm products
-child, family, and school social workers
-clergy
-community and social service specialists, all other
-community health workers
-counselors, all other
-directors, religious activities and education
-educational, guidance, school, and vocational counselors
-health educators
-healthcare social workers
-marriage and family therapists
-mental health and substance abuse social workers
-mental health counselors
-probation officers and correctional treatment specialists
-rehabilitation counselors
-religious workers, all other
-social and human service assistants
-social workers, all other
-substance abuse and behavioral disorder counselors
-actuaries
-biostatisticians
-business intelligence analysts
-clinical data managers
-computer and information research scientists
-computer network architects
-computer network support specialists
-computer occupations, all other
-computer programmers
-computer systems analysts
-computer systems engineers/architects
-computer user support specialists
-data warehousing specialists
-database administrators
-database architects
-document management specialists
-geographic information systems technicians
-geospatial information scientists and technologists
-informatics nurse specialists
-information security analysts
-information technology project managers
-mathematical science occupations, all other
-mathematical technicians
-mathematicians
-network and computer systems administrators
-operations research analysts
-search marketing strategists
-software developers, applications
-software developers, systems software
-software quality assurance engineers and testers
-statisticians
-telecommunications engineering specialists
-video game designers
-web administrators
-web developers
-boilermakers
-brickmasons and blockmasons
-carpenters
-carpet installers
-cement masons and concrete finishers
-construction and building inspectors
-construction and related workers, all other
-construction carpenters
-construction laborers
-continuous mining machine operators
-derrick operators, oil and gas
-drywall and ceiling tile installers
-earth drillers, except oil and gas
-electricians
-elevator installers and repairers
-explosives workers, ordnance handling experts, and blasters
-extraction workers, all other
-fence erectors
-first-line supervisors of construction trades and extraction workers
-floor layers, except carpet, wood, and hard tiles
-floor sanders and finishers
-glaziers
-hazardous materials removal workers
-helpers, construction trades, all other
-helpers--brickmasons, blockmasons, stonemasons, and tile and marble setters
-helpers--carpenters
-helpers--electricians
-helpers--extraction workers
-helpers--painters, paperhangers, plasterers, and stucco masons
-helpers--pipelayers, plumbers, pipefitters, and steamfitters
-helpers--roofers
-highway maintenance workers
-insulation workers, floor, ceiling, and wall
-insulation workers, mechanical
-mine cutting and channeling machine operators
-mining machine operators, all other
-operating engineers and other construction equipment operators
-painters, construction and maintenance
-paperhangers
-paving, surfacing, and tamping equipment operators
-pile-driver operators
-pipe fitters and steamfitters
-pipelayers
-plasterers and stucco masons
-plumbers
-plumbers, pipefitters, and steamfitters
-rail-track laying and maintenance equipment operators
-reinforcing iron and rebar workers
-rock splitters, quarry
-roof bolters, mining
-roofers
-rotary drill operators, oil and gas
-rough carpenters
-roustabouts, oil and gas
-segmental pavers
-septic tank servicers and sewer pipe cleaners
-service unit operators, oil, gas, and mining
-sheet metal workers
-solar energy installation managers
-solar photovoltaic installers
-solar thermal installers and technicians
-stonemasons
-structural iron and steel workers
-tapers
-terrazzo workers and finishers
-tile and marble setters
-weatherization installers and technicians
-adapted physical education specialists
-adult basic and secondary education and literacy teachers and instructors
-agricultural sciences teachers, postsecondary
-anthropology and archeology teachers, postsecondary
-architecture teachers, postsecondary
-archivists
-area, ethnic, and cultural studies teachers, postsecondary
-art, drama, and music teachers, postsecondary
-atmospheric, earth, marine, and space sciences teachers, postsecondary
-audio-visual and multimedia collections specialists
-biological science teachers, postsecondary
-business teachers, postsecondary
-career/technical education teachers, middle school
-career/technical education teachers, secondary school
-chemistry teachers, postsecondary
-communications teachers, postsecondary
-computer science teachers, postsecondary
-criminal justice and law enforcement teachers, postsecondary
-curators
-economics teachers, postsecondary
-education teachers, postsecondary
-education, training, and library workers, all other
-elementary school teachers, except special education
-engineering teachers, postsecondary
-english language and literature teachers, postsecondary
-environmental science teachers, postsecondary
-farm and home management advisors
-foreign language and literature teachers, postsecondary
-forestry and conservation science teachers, postsecondary
-geography teachers, postsecondary
-graduate teaching assistants
-health specialties teachers, postsecondary
-history teachers, postsecondary
-home economics teachers, postsecondary
-instructional coordinators
-instructional designers and technologists
-kindergarten teachers, except special education
-law teachers, postsecondary
-librarians
-library science teachers, postsecondary
-library technicians
-mathematical science teachers, postsecondary
-middle school teachers, except special and career/technical education
-museum technicians and conservators
-nursing instructors and teachers, postsecondary
-philosophy and religion teachers, postsecondary
-physics teachers, postsecondary
-political science teachers, postsecondary
-postsecondary teachers, all other
-preschool teachers, except special education
-psychology teachers, postsecondary
-recreation and fitness studies teachers, postsecondary
-secondary school teachers, except special and career/technical education
-self-enrichment education teachers
-social sciences teachers, postsecondary, all other
-social work teachers, postsecondary
-sociology teachers, postsecondary
-special education teachers, all other
-special education teachers, kindergarten and elementary school
-special education teachers, middle school
-special education teachers, preschool
-special education teachers, secondary school
-teacher assistants
-teachers and instructors, all other
-tutors
-vocational education teachers, postsecondary
-agricultural equipment operators
-agricultural inspectors
-agricultural workers, all other
-animal breeders
-fallers
-farmworkers and laborers, crop
-farmworkers and laborers, crop, nursery, and greenhouse
-farmworkers, farm, ranch, and aquacultural animals
-first-line supervisors of agricultural crop and horticultural workers
-first-line supervisors of animal husbandry and animal care workers
-first-line supervisors of aquacultural workers
-first-line supervisors of farming, fishing, and forestry workers
-first-line supervisors of logging workers
-fishers and related fishing workers
-forest and conservation workers
-graders and sorters, agricultural products
-hunters and trappers
-log graders and scalers
-logging equipment operators
-logging workers, all other
-nursery workers
-baristas
-bartenders
-chefs and head cooks
-combined food preparation and serving workers, including fast food
-cooks, all other
-cooks, fast food
-cooks, institution and cafeteria
-cooks, private household
-cooks, restaurant
-cooks, short order
-counter attendants, cafeteria, food concession, and coffee shop
-dining room and cafeteria attendants and bartender helpers
-dishwashers
-first-line supervisors of food preparation and serving workers
-food preparation and serving related workers, all other
-food preparation workers
-food servers, nonrestaurant
-hosts and hostesses, restaurant, lounge, and coffee shop
-waiters and waitresses
-acupuncturists
-acute care nurses
-advanced practice psychiatric nurses
-allergists and immunologists
-anesthesiologist assistants
-anesthesiologists
-art therapists
-athletic trainers
-audiologists
-cardiovascular technologists and technicians
-chiropractors
-clinical nurse specialists
-critical care nurses
-cytogenetic technologists
-cytotechnologists
-dental hygienists
-dentists, all other specialists
-dentists, general
-dermatologists
-diagnostic medical sonographers
-dietetic technicians
-dietitians and nutritionists
-emergency medical technicians and paramedics
-exercise physiologists
-family and general practitioners
-genetic counselors
-health diagnosing and treating practitioners, all other
-health technologists and technicians, all other
-healthcare practitioners and technical workers, all other
-hearing aid specialists
-histotechnologists and histologic technicians
-hospitalists
-internists, general
-licensed practical and licensed vocational nurses
-low vision therapists, orientation and mobility specialists, and vision rehabilitation therapists
-magnetic resonance imaging technologists
-medical and clinical laboratory technicians
-medical and clinical laboratory technologists
-medical records and health information technicians
-midwives
-music therapists
-naturopathic physicians
-neurodiagnostic technologists
-neurologists
-nuclear medicine physicians
-nuclear medicine technologists
-nurse anesthetists
-nurse midwives
-nurse practitioners
-obstetricians and gynecologists
-occupational health and safety specialists
-occupational health and safety technicians
-occupational therapists
-ophthalmic medical technicians
-ophthalmic medical technologists
-ophthalmologists
-opticians, dispensing
-optometrists
-oral and maxillofacial surgeons
-orthodontists
-orthoptists
-orthotists and prosthetists
-pathologists
-pediatricians, general
-pharmacists
-pharmacy technicians
-physical medicine and rehabilitation physicians
-physical therapists
-physician assistants
-physicians and surgeons, all other
-podiatrists
-preventive medicine physicians
-prosthodontists
-psychiatric technicians
-psychiatrists
-radiation therapists
-radiologic technicians
-radiologic technologists
-radiologists
-recreational therapists
-registered nurses
-respiratory therapists
-respiratory therapy technicians
-speech-language pathologists
-sports medicine physicians
-surgeons
-surgical assistants
-surgical technologists
-therapists, all other
-urologists
-veterinarians
-veterinary technologists and technicians
-dental assistants
-endoscopy technicians
-healthcare support workers, all other
-home health aides
-massage therapists
-medical assistants
-medical equipment preparers
-medical transcriptionists
-nursing assistants
-occupational therapy aides
-occupational therapy assistants
-orderlies
-pharmacy aides
-phlebotomists
-physical therapist aides
-physical therapist assistants
-psychiatric aides
-speech-language pathology assistants
-veterinary assistants and laboratory animal caretakers
-aircraft mechanics and service technicians
-automotive body and related repairers
-automotive glass installers and repairers
-automotive master mechanics
-automotive service technicians and mechanics
-automotive specialty technicians
-avionics technicians
-bicycle repairers
-bus and truck mechanics and diesel engine specialists
-camera and photographic equipment repairers
-coin, vending, and amusement machine servicers and repairers
-commercial divers
-computer, automated teller, and office machine repairers
-control and valve installers and repairers, except mechanical door
-electric motor, power tool, and related repairers
-electrical and electronics installers and repairers, transportation equipment
-electrical and electronics repairers, commercial and industrial equipment
-electrical and electronics repairers, powerhouse, substation, and relay
-electrical power-line installers and repairers
-electronic equipment installers and repairers, motor vehicles
-electronic home entertainment equipment installers and repairers
-fabric menders, except garment
-farm equipment mechanics and service technicians
-first-line supervisors of mechanics, installers, and repairers
-geothermal technicians
-heating and air conditioning mechanics and installers
-heating, air conditioning, and refrigeration mechanics and installers
-helpers--installation, maintenance, and repair workers
-home appliance repairers
-industrial machinery mechanics
-installation, maintenance, and repair workers, all other
-locksmiths and safe repairers
-maintenance and repair workers, general
-maintenance workers, machinery
-manufactured building and mobile home installers
-mechanical door repairers
-medical equipment repairers
-millwrights
-mobile heavy equipment mechanics, except engines
-motorboat mechanics and service technicians
-motorcycle mechanics
-musical instrument repairers and tuners
-outdoor power equipment and other small engine mechanics
-precision instrument and equipment repairers, all other
-radio mechanics
-radio, cellular, and tower equipment installers and repairers
-rail car repairers
-recreational vehicle service technicians
-refractory materials repairers, except brickmasons
-refrigeration mechanics and installers
-riggers
-security and fire alarm systems installers
-signal and track switch repairers
-telecommunications equipment installers and repairers, except line installers
-telecommunications line installers and repairers
-tire repairers and changers
-watch repairers
-wind turbine service technicians
-administrative law judges, adjudicators, and hearing officers
-arbitrators, mediators, and conciliators
-court reporters
-judges, magistrate judges, and magistrates
-judicial law clerks
-lawyers
-legal support workers, all other
-paralegals and legal assistants
-title examiners, abstractors, and searchers
-agricultural and food science technicians
-agricultural technicians
-animal scientists
-anthropologists
-anthropologists and archeologists
-archeologists
-astronomers
-atmospheric and space scientists
-biochemists and biophysicists
-bioinformatics scientists
-biological scientists, all other
-biological technicians
-biologists
-chemical technicians
-chemists
-city and regional planning aides
-climate change analysts
-clinical psychologists
-clinical, counseling, and school psychologists
-conservation scientists
-counseling psychologists
-economists
-environmental economists
-environmental restoration planners
-environmental science and protection technicians, including health
-environmental scientists and specialists, including health
-epidemiologists
-food science technicians
-food scientists and technologists
-forensic science technicians
-forest and conservation technicians
-foresters
-geneticists
-geographers
-geological and petroleum technicians
-geological sample test technicians
-geophysical data technicians
-geoscientists, except hydrologists and geographers
-historians
-hydrologists
-industrial ecologists
-industrial-organizational psychologists
-life scientists, all other
-life, physical, and social science technicians, all other
-materials scientists
-medical scientists, except epidemiologists
-microbiologists
-molecular and cellular biologists
-neuropsychologists and clinical neuropsychologists
-nuclear equipment operation technicians
-nuclear monitoring technicians
-nuclear technicians
-park naturalists
-physical scientists, all other
-physicists
-political scientists
-precision agriculture technicians
-psychologists, all other
-quality control analysts
-range managers
-remote sensing scientists and technologists
-remote sensing technicians
-school psychologists
-social science research assistants
-social scientists and related workers, all other
-sociologists
-soil and plant scientists
-soil and water conservationists
-survey researchers
-transportation planners
-urban and regional planners
-zoologists and wildlife biologists
-administrative services managers
-advertising and promotions managers
-aquacultural managers
-architectural and engineering managers
-biofuels production managers
-biofuels/biodiesel technology and product development managers
-biomass power plant managers
-brownfield redevelopment specialists and site managers
-chief executives
-chief sustainability officers
-clinical research coordinators
-compensation and benefits managers
-compliance managers
-computer and information systems managers
-construction managers
-distance learning coordinators
-education administrators, all other
-education administrators, elementary and secondary school
-education administrators, postsecondary
-education administrators, preschool and childcare center/program
-emergency management directors
-farm and ranch managers
-farmers, ranchers, and other agricultural managers
-financial managers
-financial managers, branch or department
-fitness and wellness coordinators
-food service managers
-funeral service managers
-gaming managers
-general and operations managers
-geothermal production managers
-green marketers
-human resources managers
-hydroelectric production managers
-industrial production managers
-investment fund managers
-legislators
-lodging managers
-logistics managers
-loss prevention managers
-managers, all other
-marketing managers
-medical and health services managers
-methane/landfill gas collection system operators
-natural sciences managers
-nursery and greenhouse managers
-postmasters and mail superintendents
-property, real estate, and community association managers
-public relations and fundraising managers
-purchasing managers
-quality control systems managers
-regulatory affairs managers
-sales managers
-security managers
-social and community service managers
-storage and distribution managers
-supply chain managers
-training and development managers
-transportation managers
-transportation, storage, and distribution managers
-treasurers and controllers
-water resource specialists
-wind energy operations managers
-wind energy project managers
-air crew members
-air crew officers
-aircraft launch and recovery officers
-aircraft launch and recovery specialists
-armored assault vehicle crew members
-armored assault vehicle officers
-artillery and missile crew members
-artillery and missile officers
-command and control center officers
-command and control center specialists
-first-line supervisors of air crew members
-first-line supervisors of all other tactical operations specialists
-first-line supervisors of weapons specialists/crew members
-infantry
-infantry officers
-military enlisted tactical operations and air/weapons specialists and crew members, all other
-military officer special and tactical operations leaders, all other
-radar and sonar technicians
-special forces
-special forces officers
-bill and account collectors
-billing and posting clerks
-billing, cost, and rate clerks
-bioinformatics technicians
-bookkeeping, accounting, and auditing clerks
-brokerage clerks
-cargo and freight agents
-communications equipment operators, all other
-computer operators
-correspondence clerks
-couriers and messengers
-court clerks
-court, municipal, and license clerks
-credit authorizers
-credit authorizers, checkers, and clerks
-credit checkers
-customer service representatives
-data entry keyers
-desktop publishers
-dispatchers, except police, fire, and ambulance
-eligibility interviewers, government programs
-executive secretaries and executive administrative assistants
-file clerks
-financial clerks, all other
-first-line supervisors of office and administrative support workers
-freight forwarders
-gaming cage workers
-hotel, motel, and resort desk clerks
-human resources assistants, except payroll and timekeeping
-information and record clerks, all other
-insurance claims and policy processing clerks
-insurance claims clerks
-insurance policy processing clerks
-interviewers, except eligibility and loan
-legal secretaries
-library assistants, clerical
-license clerks
-loan interviewers and clerks
-mail clerks and mail machine operators, except postal service
-marking clerks
-medical secretaries
-meter readers, utilities
-municipal clerks
-new accounts clerks
-office and administrative support workers, all other
-office clerks, general
-office machine operators, except computer
-order clerks
-order fillers, wholesale and retail sales
-patient representatives
-payroll and timekeeping clerks
-police, fire, and ambulance dispatchers
-postal service clerks
-postal service mail carriers
-postal service mail sorters, processors, and processing machine operators
-procurement clerks
-production, planning, and expediting clerks
-proofreaders and copy markers
-receptionists and information clerks
-reservation and transportation ticket agents and travel clerks
-secretaries and administrative assistants, except legal, medical, and executive
-shipping, receiving, and traffic clerks
-statement clerks
-statistical assistants
-stock clerks and order fillers
-stock clerks, sales floor
-stock clerks- stockroom, warehouse, or storage yard
-switchboard operators, including answering service
-telephone operators
-tellers
-weighers, measurers, checkers, and samplers, recordkeeping
-word processors and typists
-amusement and recreation attendants
-animal trainers
-baggage porters and bellhops
-barbers
-childcare workers
-concierges
-costume attendants
-embalmers
-entertainment attendants and related workers, all other
-first-line supervisors of personal service workers
-fitness trainers and aerobics instructors
-funeral attendants
-gaming and sports book writers and runners
-gaming dealers
-gaming service workers, all other
-gaming supervisors
-hairdressers, hairstylists, and cosmetologists
-locker room, coatroom, and dressing room attendants
-makeup artists, theatrical and performance
-manicurists and pedicurists
-morticians, undertakers, and funeral directors
-motion picture projectionists
-nannies
-nonfarm animal caretakers
-personal care aides
-personal care and service workers, all other
-recreation workers
-residential advisors
-shampooers
-skincare specialists
-slot supervisors
-spa managers
-tour guides and escorts
-travel guides
-ushers, lobby attendants, and ticket takers
-adhesive bonding machine operators and tenders
-aircraft structure, surfaces, rigging, and systems assemblers
-assemblers and fabricators, all other
-bakers
-biofuels processing technicians
-biomass plant technicians
-butchers and meat cutters
-cabinetmakers and bench carpenters
-chemical equipment operators and tenders
-chemical plant and system operators
-cleaning, washing, and metal pickling equipment operators and tenders
-coating, painting, and spraying machine setters, operators, and tenders
-coil winders, tapers, and finishers
-computer numerically controlled machine tool programmers, metal and plastic
-computer-controlled machine tool operators, metal and plastic
-cooling and freezing equipment operators and tenders
-crushing, grinding, and polishing machine setters, operators, and tenders
-cutters and trimmers, hand
-cutting and slicing machine setters, operators, and tenders
-cutting, punching, and press machine setters, operators, and tenders, metal and plastic
-dental laboratory technicians
-drilling and boring machine tool setters, operators, and tenders, metal and plastic
-electrical and electronic equipment assemblers
-electromechanical equipment assemblers
-engine and other machine assemblers
-etchers and engravers
-extruding and drawing machine setters, operators, and tenders, metal and plastic
-extruding and forming machine setters, operators, and tenders, synthetic and glass fibers
-extruding, forming, pressing, and compacting machine setters, operators, and tenders
-fabric and apparel patternmakers
-fiberglass laminators and fabricators
-first-line supervisors of production and operating workers
-food and tobacco roasting, baking, and drying machine operators and tenders
-food batchmakers
-food cooking machine operators and tenders
-food processing workers, all other
-forging machine setters, operators, and tenders, metal and plastic
-foundry mold and coremakers
-furnace, kiln, oven, drier, and kettle operators and tenders
-furniture finishers
-gas plant operators
-gem and diamond workers
-glass blowers, molders, benders, and finishers
-grinding and polishing workers, hand
-grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic
-heat treating equipment setters, operators, and tenders, metal and plastic
-helpers--production workers
-hydroelectric plant technicians
-inspectors, testers, sorters, samplers, and weighers
-jewelers
-jewelers and precious stone and metal workers
-lathe and turning machine tool setters, operators, and tenders, metal and plastic
-laundry and dry-cleaning workers
-layout workers, metal and plastic
-machinists
+operations technicians* BUSINESS: OPERATIONS AND TECHNOLOGY MANAGEMENT, BBA
+aerospace engineers* ENGINEERING MECHANICS, B.S.
+agricultural engineers* AGRICULTURAL AND APPLIED ECONOMICS, B.S.| AGRICULTURAL BUSINESS MANAGEMENT, B.S.| AGRONOMY, B.S.| BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+architects* INTERIOR ARCHITECTURE, B.S.| LANDSCAPE ARCHITECTURE, BLA| LANDSCAPE ARCHITECTURE, BSLA
+civil drafters* CIVIL ENGINEERING, B.S.
+architectural drafters* INTERIOR ARCHITECTURE, B.S.| LANDSCAPE ARCHITECTURE, BLA| LANDSCAPE ARCHITECTURE, BSLA
+automotive engineering technicians* ENGINEERING MECHANICS, B.S.
+automotive engineers* ENGINEERING MECHANICS, B.S.
+biochemical engineers* BIOCHEMISTRY, B.A. (L&S)| BIOCHEMISTRY, B.S. (CALS)| BIOCHEMISTRY, B.S. (L&S)
+biomedical engineers* BIOMEDICAL ENGINEERING, B.S.
+cartographers* CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.A.| CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.S.
+chemical engineers* CHEMICAL ENGINEERING, B.S., CHEMISTRY, B.A., CHEMISTRY, B.S.
+civil engineering technicians* CIVIL ENGINEERING, B.S.  
+civil engineers* CIVIL ENGINEERING, B.S.
+computer hardware engineers* COMPUTER ENGINEERING, B.S.| ELECTRICAL ENGINEERING, B.S.
+electrical and electronic engineers* ELECTRICAL ENGINEERING, B.S.
+stock analyst* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA| BUSINESS: INFORMATION SYSTEMS, BBA| BUSINESS: MARKETING, BBA| PERSONAL FINANCE, B.S.| ECONOMICS, B.S.
+cryptographer* COMPUTER SCIENCES, B.A.
+electrical and electronics drafters* ELECTRICAL ENGINEERING, B.S.
+electrical drafters* ELECTRICAL ENGINEERING, B.S.
+electrical engineering technicians* ELECTRICAL ENGINEERING, B.S.
+electrical engineering technologists* ELECTRICAL ENGINEERING, B.S.
+electrical engineers* ELECTRICAL ENGINEERING, B.S.
+electromechanical engineering technologists* ELECTRICAL ENGINEERING, B.S.
+electronic drafters* ELECTRICAL ENGINEERING, B.S.
+electronics engineering technicians* ELECTRICAL ENGINEERING, B.S.
+electronics engineering technologists* ELECTRICAL ENGINEERING, B.S.
+electronics engineers* ELECTRICAL ENGINEERING, B.S.
+energy engineers* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE| ENGINEERING THERMAL ENERGY SYSTEMS, CERTIFICATE| 
+environmental engineering technicians* COMMUNITY AND ENVIRONMENTAL SOCIOLOGY, B.S.| ENVIRONMENTAL SCIENCES, B.S. (L&S)| ENVIRONMENTAL SCIENCES, B.S. (CALS)| ENVIRONMENTAL STUDIES MAJOR
+environmental engineers* COMMUNITY AND ENVIRONMENTAL SOCIOLOGY, B.S.| ENVIRONMENTAL SCIENCES, B.S. (L&S)| ENVIRONMENTAL SCIENCES, B.S. (CALS)| ENVIRONMENTAL STUDIES MAJOR
+fire-prevention engineers* PHYSICAL EDUCATION, B.S.| HEALTH AND THE HUMANITIES, CERTIFICATE| 
+fuel cell engineers* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE| ENGINEERING THERMAL ENERGY SYSTEMS, CERTIFICATE| 
+geodetic surveyors* GEOLOGICAL ENGINEERING, B.S.| GEOLOGY AND GEOPHYSICS, B.A.| GEOLOGY AND GEOPHYSICS, B.S.
+health and safety engineers* GLOBAL HEALTH, CERTIFICATE| HEALTH AND THE HUMANITIES, CERTIFICATE| HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+human factors engineers and ergonomists* HUMAN DEVELOPMENT AND FAMILY STUDIES, B.S.| BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA| 
+industrial engineering technicians* INDUSTRIAL ENGINEERING, B.S.
+industrial engineering technologists* INDUSTRIAL ENGINEERING, B.S.
+industrial engineers* INDUSTRIAL ENGINEERING, B.S.
+industrial safety and health engineers* GLOBAL HEALTH, CERTIFICATE| HEALTH AND THE HUMANITIES, CERTIFICATE| INDUSTRIAL ENGINEERING, B.S.
+landscape architects* LANDSCAPE ARCHITECTURE, BLA| LANDSCAPE ARCHITECTURE, BSLA
+manufacturing engineering technologists* MANUFACTURING ENGINEERING, CERTIFICATE
+manufacturing engineers* MANUFACTURING ENGINEERING, CERTIFICATE
+manufacturing production technicians* MANUFACTURING ENGINEERING, CERTIFICATE
+mapping technicians* CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.A.| CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.S.
+marine architects* NAVAL SCIENCE, BNS| LANDSCAPE ARCHITECTURE, BLA|
+marine engineers* NAVAL SCIENCE, BNS| 
+marine engineers and naval architects* NAVAL SCIENCE, BNS| LANDSCAPE ARCHITECTURE, BLA|
+materials engineers* MATERIALS SCIENCE AND ENGINEERING, B.S.
+mechanical drafters* MECHANICAL ENGINEERING, B.S.| ENGINEERING MECHANICS, B.S.
+mechanical engineering technicians* MECHANICAL ENGINEERING, B.S.| ENGINEERING MECHANICS, B.S.
+mechanical engineering technologists* MECHANICAL ENGINEERING, B.S.| ENGINEERING MECHANICS, B.S.
+mechanical engineers* MECHANICAL ENGINEERING, B.S.| ENGINEERING MECHANICS, B.S.
+mechatronics engineers* MECHANICAL ENGINEERING, B.S.| ELECTRICAL ENGINEERING, B.S.
+microsystems engineers* ELECTRICAL ENGINEERING, B.S.| COMPUTER ENGINEERING, B.S.
+mining and geological engineers* GEOLOGICAL ENGINEERING, B.S.| GEOLOGY AND GEOPHYSICS, B.A.| GEOLOGY AND GEOPHYSICS, B.S.
+nanosystems engineers* ELECTRICAL ENGINEERING, B.S.| COMPUTER ENGINEERING, B.S.
+nanotechnology engineering technicians* ELECTRICAL ENGINEERING, B.S.| COMPUTER ENGINEERING, B.S.
+nanotechnology engineering technologists* ELECTRICAL ENGINEERING, B.S.| COMPUTER ENGINEERING, B.S.
+non-destructive testing specialists* MATERIALS SCIENCE AND ENGINEERING, B.S.| 
+nuclear engineers* NUCLEAR ENGINEERING, B.S.| NUCLEAR ENGINEERING MATERIALS, CERTIFICATE
+petroleum engineers* CHEMICAL ENGINEERING, B.S.| ENGINEERING THERMAL ENERGY SYSTEMS, CERTIFICATE
+photonics engineers* PHYSICS, B.S.
+photonics technicians* PHYSICS, B.S.
+product safety engineers* MATERIALS SCIENCE AND ENGINEERING, B.S.| PHARMACOLOGY AND TOXICOLOGY, B.S.
+radio frequency identification device specialists* PHYSICS, B.S.
+robotics engineers* MECHANICAL ENGINEERING, B.S.| COMPUTER ENGINEERING, B.S.
+robotics technicians* MECHANICAL ENGINEERING, B.S.| COMPUTER ENGINEERING, B.S.
+solar energy systems engineers* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE| ENGINEERING PHYSICS, B.S.
+surveying and mapping technicians* CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.A.| CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.S.
+surveying technicians* STATISTICS, B.S.| CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.S.
+surveyors* STATISTICS, B.S.| CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.S.
+transportation engineers* MECHANICAL ENGINEERING, B.S.
+validation engineers* STATISTICS, B.S.| DATA SCIENCE, B.S.
+water/wastewater engineers* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE| ENGINEERING PHYSICS, B.S.
+wind energy engineers* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE| ENGINEERING PHYSICS, B.S.
+actors* COMMUNICATION ARTS, B.S.| ART EDUCATION, B.S.
+art directors* ART EDUCATION, B.S.| ART, BFA| ART HISTORY, B.S.| ART HISTORY, CERTIFICATE
+artists and related workers, all other* ART EDUCATION, B.S.| ART, BFA| ART HISTORY, B.S.| ART HISTORY, CERTIFICATE
+athletes and sports competitors* KINESIOLOGY, B.S.| PHYSICAL EDUCATION, B.S.
+audio and video equipment technicians* PHYSICS, B.S.
+broadcast news analysts* STATISTICS, B.S.| COMMUNICATION ARTS, B.S.
+broadcast technicians* MECHANICAL ENGINEERING, B.S.
+camera operators* MECHANICAL ENGINEERING, B.S.
+choreographers* DANCE, B.S.| DANCE, BFA
+coaches and scouts* KINESIOLOGY, B.S.| PHYSICAL EDUCATION, B.S.
+commercial and industrial designers* INDUSTRIAL ENGINEERING, B.S.
+copy writers* JOURNALISM, JBS| ENGLISH, B.S.
+craft artists* ART EDUCATION, B.S.| ART, BFA| ART HISTORY, B.S.| ART HISTORY, CERTIFICATE
+dancers* DANCE, B.S.| DANCE, BFA
+designers* DESIGN STRATEGY, CERTIFICATE| GRAPHIC DESIGN, CERTIFICATE
+directors* COMMUNICATION ARTS, B.S.| ART EDUCATION, B.S.
+editors* DESIGN STRATEGY, CERTIFICATE
+entertainers and performers, sports and related workers* COMMUNICATION ARTS, B.S.| ART EDUCATION, B.S.
+fashion designers* TEXTILES AND FASHION DESIGN, B.S.| TEXTILES AND DESIGN, CERTIFICATE
+film and video editors* COMMUNICATION ARTS, B.S.| ART EDUCATION, B.S.| DESIGN STRATEGY, CERTIFICATE
+fine artists, including painters, sculptors, and illustrators* ART, BFA
+floral designers* ART, BFA
+graphic designers* GRAPHIC DESIGN, CERTIFICATE
+interior designers* INTERIOR ARCHITECTURE, B.S.
+interpreters and translators* ENGLISH, B.S.
+media and communication equipment workers* COMMUNICATION ARTS, B.S.
+merchandise displayers and window trimmers* COMMUNICATION ARTS, B.S. 
+multimedia artists and animators* GRAPHIC DESIGN, CERTIFICATE
+music composers and arrangers* MUSIC: EDUCATION, B.M.
+music directors* MUSIC: EDUCATION, B.M.
+musicians and singers* MUSIC: PERFORMANCE, B.M.
+musicians, instrumental* MUSIC: PERFORMANCE, B.M.
+photographers* GRAPHIC DESIGN, CERTIFICATE 
+poets, lyricists and creative writers* ENGLISH, B.S.
+producers* COMMUNICATION ARTS, B.S.
+producers and directors* COMMUNICATION ARTS, B.S.
+program directors* COMMUNICATION ARTS, B.S.
+public address system and other announcers* COMMUNICATION ARTS, B.S.
+public relations specialists* COMMUNICATION ARTS, B.S.
+radio and television announcers* COMMUNICATION ARTS, B.S.
+radio operators* MECHANICAL ENGINEERING, B.S.
+reporters and correspondents* COMMUNICATION ARTS, B.S.
+set and exhibit designers* DESIGN STRATEGY, CERTIFICATE
+singers* MUSIC: PERFORMANCE, B.M.
+sound engineering technicians* MECHANICAL ENGINEERING, B.S.
+talent directors* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+technical directors/managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+technical writers* ENGLISH, B.S.
+umpires, referees, and other sports officials* KINESIOLOGY, B.S.
+writers and authors* ENGLISH, B.S.
+building cleaning workers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+first-line supervisors* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+grounds maintenance workers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+janitors and cleaners* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+landscaping and groundskeeping workers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+maids and housekeeping cleaners* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+pest control workers* PHARMACOLOGY AND TOXICOLOGY, B.S.
+pesticide handlers, sprayers, and applicators, vegetation* PHARMACOLOGY AND TOXICOLOGY, B.S.
+tree trimmers and pruners* FOREST SCIENCE, B.S.
+accountants* BUSINESS: ACCOUNTING, BBA
+accountants and auditors* BUSINESS: ACCOUNTING, BBA
+agents and business managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+appraisers and assessors of real estate* BUSINESS: REAL ESTATE AND URBAN LAND ECONOMICS, BBA
+budget analysts* ECONOMICS, B.S.
+business continuity planners* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+business operations specialists, all other* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+buyers and purchasing agents, farm products* AGRICULTURAL BUSINESS MANAGEMENT, B.S.
+claims adjusters, examiners, and investigators* BUSINESS: RISK MANAGEMENT AND INSURANCE, BBA
+claims examiners, property and casualty insurance* BUSINESS: RISK MANAGEMENT AND INSURANCE, BBA
+compensation, benefits, and job analysis specialists* BUSINESS: RISK MANAGEMENT AND INSURANCE, BBA
+compliance officers* LEGAL STUDIES, B.S.
+cryptographers* COMPUTER SCIENCES, B.S.
+cost estimators* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+credit analysts* PERSONAL FINANCE, B.S.
+credit counselors* PERSONAL FINANCE, B.S.
+customs brokers* PERSONAL FINANCE, B.S.
+environmental compliance inspectors* LEGAL STUDIES, B.S.
+equal opportunity representatives and officers* LEGAL STUDIES, B.S.
+farm labor contractors* AGRICULTURAL AND APPLIED ECONOMICS, B.S.
+financial analysts* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+financial examiners* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+financial quantitative analysts* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+financial specialists, all other* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+fraud examiners, investigators and analysts* LEGAL STUDIES, B.S.
+fundraisers* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+government property inspectors and investigators* LEGAL STUDIES, B.S.
+human resources specialists* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+insurance adjusters, examiners, and investigators* BUSINESS: RISK MANAGEMENT AND INSURANCE, BBA
+insurance appraisers, auto damage* BUSINESS: RISK MANAGEMENT AND INSURANCE, BBA
+insurance underwriters* BUSINESS: RISK MANAGEMENT AND INSURANCE, BBA
+investment underwriters* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+labor relations specialists* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+licensing examiners and inspectors* LEGAL STUDIES, B.S.
+loan counselors* PERSONAL FINANCE, B.S.
+loan officers* PERSONAL FINANCE, B.S.
+logisticians* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+logistics analysts* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+logistics engineers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+management analysts* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+market research analysts and marketing specialists* BUSINESS: MARKETING, BBA
+meeting, convention, and event planners* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+online merchants* BUSINESS: MARKETING, BBA
+personal financial advisors* PERSONAL FINANCE, B.S.
+purchasing agents* BUSINESS: MARKETING, BBA
+regulatory affairs specialists* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+risk management specialists* BUSINESS: RISK MANAGEMENT AND INSURANCE, BBA
+security management specialists* BUSINESS: RISK MANAGEMENT AND INSURANCE, BBA
+sustainability specialists* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+tax examiners and collectors, and revenue agents* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+tax preparers* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+training and development specialists* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+wholesale and retail buyers* BUSINESS: MARKETING, BBA
+child, family, and school social workers* HUMAN DEVELOPMENT AND FAMILY STUDIES, B.S.
+clergy* RELIGIOUS STUDIES, B.A.
+community and social service specialists, all other* COMMUNITY AND NONPROFIT LEADERSHIP, B.S.
+community health workers* HEALTH AND THE HUMANITIES, CERTIFICATE
+counselors, all other* HUMAN DEVELOPMENT AND FAMILY STUDIES, B.S.
+directors, religious activities and education* RELIGIOUS STUDIES, B.A.
+educational, guidance, school, and vocational counselors* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+health educators* HEALTH AND THE HUMANITIES, CERTIFICATE
+healthcare social workers* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+marriage and family therapists* HUMAN DEVELOPMENT AND FAMILY STUDIES, B.S.
+mental health and substance abuse social workers* HUMAN DEVELOPMENT AND FAMILY STUDIES, B.S.
+mental health counselors* HUMAN DEVELOPMENT AND FAMILY STUDIES, B.S.
+probation officers and correctional treatment specialists* HUMAN DEVELOPMENT AND FAMILY STUDIES, B.S.
+rehabilitation counselors* REHABILITATION PSYCHOLOGY, B.S.
+religious workers, all other* RELIGIOUS STUDIES, B.A.
+social and human service assistants* COMMUNITY AND NONPROFIT LEADERSHIP, B.S.
+social workers, all other* COMMUNITY AND NONPROFIT LEADERSHIP, B.S.
+substance abuse and behavioral disorder counselors* HUMAN DEVELOPMENT AND FAMILY STUDIES, B.S.
+actuaries* BUSINESS: ACTUARIAL SCIENCE, BBA
+biostatisticians* BIOLOGICAL SYSTEMS ENGINEERING, B.S.
+business intelligence analysts* BUSINESS: INFORMATION SYSTEMS, BBA
+clinical data managers* DATA SCIENCE, B.S.
+computer and information research scientists* DATA SCIENCE, B.S.
+computer network architects* COMPUTER SCIENCES, B.S.
+computer network support specialists* COMPUTER SCIENCES, B.S.
+computer occupations* COMPUTER SCIENCES, B.S.
+computer programmers* COMPUTER SCIENCES, B.S.
+computer systems analysts* COMPUTER SCIENCES, B.S.
+computer systems engineers* COMPUTER SCIENCES, B.S.
+computer user support specialists* COMPUTER SCIENCES, B.S.
+data warehousing specialists* DATA SCIENCE, B.S.
+database administrators* DATA SCIENCE, B.S.
+database architects* DATA SCIENCE, B.S.
+document management specialists* DATA SCIENCE, B.S.
+geographic information systems technicians* CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.S.
+geospatial information scientists and technologists* CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.S.
+informatics nurse specialists* NURSING, BSN
+information security analysts* COMPUTER SCIENCES, B.S.
+information technology project managers* COMPUTER SCIENCES, B.S.
+mathematical science occupations, all other* MATHEMATICS, B.S.
+mathematical technicians* MATHEMATICS, B.S.
+mathematicians* MATHEMATICS, B.S.
+network and computer systems administrators* COMPUTER ENGINEERING, B.S.
+operations research analysts* BUSINESS: OPERATIONS AND TECHNOLOGY MANAGEMENT, BBA
+marketing strategists* BUSINESS: MARKETING, BBA
+software developers, applications* COMPUTER SCIENCES, B.S.
+software developers, systems software* COMPUTER SCIENCES, B.S.
+software quality assurance engineers and testers* COMPUTER ENGINEERING, B.S.
+statisticians* STATISTICS, B.S.
+telecommunications engineering specialists* TECHNICAL COMMUNICATION, CERTIFICATE
+video game designers* GAME DESIGN, CERTIFICATE
+web administrators* COMPUTER SCIENCES, B.S.
+web developers* COMPUTER SCIENCES, B.S.
+boilermakers* MATERIALS SCIENCE AND ENGINEERING, B.S.
+brickmasons and blockmasons* MATERIALS SCIENCE AND ENGINEERING, B.S.
+carpenters* MATERIALS SCIENCE AND ENGINEERING, B.S.
+carpet installers* MATERIALS SCIENCE AND ENGINEERING, B.S.
+cement masons and concrete finishers* CIVIL ENGINEERING, B.S.
+construction and building inspectors* CIVIL ENGINEERING, B.S.
+construction and related workers, all other* CIVIL ENGINEERING, B.S.
+construction carpenters* CIVIL ENGINEERING, B.S.
+construction laborers* CIVIL ENGINEERING, B.S.
+continuous mining machine operators* CIVIL ENGINEERING, B.S.
+derrick operators, oil and gas* CIVIL ENGINEERING, B.S.
+drywall and ceiling tile installers* CIVIL ENGINEERING, B.S.
+earth drillers* CIVIL ENGINEERING, B.S.
+electricians* ELECTRICAL ENGINEERING, B.S.
+elevator installers and repairers* ELECTRICAL ENGINEERING, B.S.
+explosives workers, ordnance handling experts, and blasters* MATERIALS SCIENCE AND ENGINEERING, B.S.
+extraction workers, all other* MATERIALS SCIENCE AND ENGINEERING, B.S.
+fence erectors* CIVIL ENGINEERING, B.S.
+first-line supervisors of construction trades and extraction workers* CIVIL ENGINEERING, B.S.
+floor layers* MATERIALS SCIENCE AND ENGINEERING, B.S.
+floor sanders and finishers* MATERIALS SCIENCE AND ENGINEERING, B.S.
+glaziers* MATERIALS SCIENCE AND ENGINEERING, B.S.
+hazardous materials removal workers* PHARMACOLOGY AND TOXICOLOGY, B.S.
+highway maintenance workers* CIVIL ENGINEERING, B.S.
+insulation workers, floor, ceiling, and wall* CIVIL ENGINEERING, B.S.
+insulation workers, mechanical* CIVIL ENGINEERING, B.S.
+mine cutting and channeling machine operators* CIVIL ENGINEERING, B.S.
+mining machine operators, all other* CIVIL ENGINEERING, B.S.
+operating engineers and other construction equipment operators* CIVIL ENGINEERING, B.S.
+painters, construction and maintenance* CIVIL ENGINEERING, B.S.
+paving, surfacing, and tamping equipment operators* CIVIL ENGINEERING, B.S.
+pile-driver operators* CIVIL ENGINEERING, B.S.
+pipe fitters and steamfitters* CIVIL ENGINEERING, B.S.
+pipelayers* CIVIL ENGINEERING, B.S.
+plasterers and stucco masons* CIVIL ENGINEERING, B.S.
+plumbers* CIVIL ENGINEERING, B.S.
+plumbers, pipefitters, and steamfitters* CIVIL ENGINEERING, B.S.
+rail-track laying and maintenance equipment operators* CIVIL ENGINEERING, B.S.
+reinforcing iron and rebar workers* CIVIL ENGINEERING, B.S.
+rock splitters, quarry* CIVIL ENGINEERING, B.S.
+roof bolters, mining* CIVIL ENGINEERING, B.S.
+roofers* CIVIL ENGINEERING, B.S.
+rotary drill operators, oil and gas* CIVIL ENGINEERING, B.S.
+rough carpenters* CIVIL ENGINEERING, B.S.
+roustabouts, oil and gas* CIVIL ENGINEERING, B.S.
+segmental pavers* CIVIL ENGINEERING, B.S.
+septic tank servicers and sewer pipe cleaners* CIVIL ENGINEERING, B.S.
+service unit operators, oil, gas, and mining* CIVIL ENGINEERING, B.S.
+sheet metal workers* CIVIL ENGINEERING, B.S.
+solar energy installation managers* ENGINEERING THERMAL ENERGY SYSTEMS, CERTIFICATE
+solar photovoltaic installers* ENGINEERING THERMAL ENERGY SYSTEMS, CERTIFICATE
+solar thermal installers and technicians* ENGINEERING THERMAL ENERGY SYSTEMS, CERTIFICATE
+stonemasons* CIVIL ENGINEERING, B.S.
+structural iron and steel workers* CIVIL ENGINEERING, B.S.
+terrazzo workers and finishers* CIVIL ENGINEERING, B.S.
+tile and marble setters* CIVIL ENGINEERING, B.S.
+weatherization installers and technicians* CIVIL ENGINEERING, B.S.
+adapted physical education specialists* PHYSICAL EDUCATION, B.S.
+adult basic and secondary education and literacy teachers and instructors* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+agricultural sciences teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+anthropology and archeology teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+architecture teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+archivists* STATISTICS, B.S.
+area, ethnic, and cultural studies teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+art, drama, and music teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+atmospheric, earth, marine, and space sciences teachers, postsecondary* ATMOSPHERIC AND OCEANIC SCIENCES, B.A.
+audio-visual and multimedia collections specialists* COMMUNICATION ARTS, B.S.
+biological science teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+business teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+career/technical education teachers, middle school* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+career/technical education teachers, secondary school* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+chemistry teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+communications teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+computer science teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+criminal justice and law enforcement teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+curators* HISTORY, B.S.
+economics teachers, postsecondary* ECONOMICS, B.S.| EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+education teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+education, training, and library workers, all other* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+elementary school teachers* ELEMENTARY EDUCATION, BSE
+engineering teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+english language and literature teachers, postsecondary* TEACHING ENGLISH TO SPEAKERS OF OTHER LANGUAGES, CERTIFICATE
+environmental science teachers, postsecondary* ENVIRONMENTAL SCIENCES, B.S. (L&S)
+home management advisors* PERSONAL FINANCE, B.S.
+foreign language and literature teachers, postsecondary* TEACHING ENGLISH TO SPEAKERS OF OTHER LANGUAGES, CERTIFICATE
+forestry and conservation science teachers, postsecondary* FOREST SCIENCE, B.S.
+geography teachers, postsecondary* GEOGRAPHY, B.S.
+graduate teaching assistants* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+health specialties teachers, postsecondary* HEALTH AND THE HUMANITIES, CERTIFICATE
+history teachers, postsecondary* HISTORY, B.S.
+home economics teachers, postsecondary* PERSONAL FINANCE, B.S.
+instructional coordinators* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+instructional designers and technologists* DESIGN STRATEGY, CERTIFICATE
+kindergarten teachers* EDUCATION STUDIES, B.S.
+law teachers, postsecondary* LEGAL STUDIES, B.S.
+librarians* INTEGRATED LIBERAL STUDIES, CERTIFICATE
+library science teachers, postsecondary* INTEGRATED LIBERAL STUDIES, CERTIFICATE
+library technicians* INTEGRATED LIBERAL STUDIES, CERTIFICATE
+mathematical science teachers, postsecondary* MATHEMATICS, B.S.
+middle school teachers* EDUCATION STUDIES, B.S.
+museum technicians and conservators* HISTORY, B.S.
+nursing instructors and teachers, postsecondary* EDUCATION STUDIES, B.S.
+philosophy and religion teachers, postsecondary* EDUCATION STUDIES, B.S.
+physics teachers, postsecondary* EDUCATION STUDIES, B.S.
+political science teachers, postsecondary* POLITICAL SCIENCE, B.S.
+postsecondary teachers, all other* EDUCATION STUDIES, B.S.
+preschool teachers* ELEMENTARY EDUCATION, BSE
+psychology teachers, postsecondary* PSYCHOLOGY, B.S.
+recreation and fitness studies teachers, postsecondary* KINESIOLOGY, B.S.
+secondary school teachers* EDUCATION STUDIES, B.S.
+self-enrichment education teachers* EDUCATION STUDIES, B.S.
+social sciences teachers, postsecondary, all other* EDUCATION STUDIES, B.S.
+social work teachers, postsecondary* EDUCATION STUDIES, B.S.
+sociology teachers, postsecondary* EDUCATION STUDIES, B.S.
+special education teachers, all other* SPECIAL EDUCATION, BSE
+special education teachers, kindergarten and elementary school* SPECIAL EDUCATION, BSE
+special education teachers, middle school* SPECIAL EDUCATION, BSE
+special education teachers, preschool* SPECIAL EDUCATION, BSE
+special education teachers, secondary school* SPECIAL EDUCATION, BSE
+teacher assistants* EDUCATION STUDIES, B.S.
+teachers and instructors, all other* EDUCATION STUDIES, B.S.
+tutors* EDUCATION STUDIES, B.S.
+vocational education teachers, postsecondary* EDUCATION STUDIES, B.S.
+agricultural equipment operators* CIVIL ENGINEERING, B.S.
+agricultural inspectors* BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+agricultural workers, all other* BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+animal breeders* ANIMAL SCIENCES, B.S.
+fallers* BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+farmworkers and laborers, crop* BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+farmworkers and laborers, crop, nursery, and greenhouse* BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+farmworkers, farm, ranch, and aquacultural animals* BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+first-line supervisors of agricultural crop and horticultural workers* BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+first-line supervisors of animal husbandry and animal care workers* BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+first-line supervisors of aquacultural workers* BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+first-line supervisors of farming, fishing, and forestry workers* BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+first-line supervisors of logging workers* BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+fishers and related fishing workers* BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+forest and conservation workers* FOREST SCIENCE, B.S.
+graders and sorters, agricultural products* BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+hunters and trappers* BUSINESS MANAGEMENT FOR AGRICULTURAL AND LIFE SCIENCES, CERTIFICATE
+log graders and scalers* CIVIL ENGINEERING, B.S.
+logging equipment operators* CIVIL ENGINEERING, B.S.
+logging workers, all other* CIVIL ENGINEERING, B.S.
+nursery workers* NURSING, BSN
+baristas* FOOD SCIENCE, B.S.
+bartenders* FOOD SCIENCE, B.S.
+chefs and head cooks* FOOD SCIENCE, B.S.
+combined food preparation and serving workers, including fast food* FOOD SCIENCE, B.S.
+cooks, all other* FOOD SCIENCE, B.S.
+cooks, fast food* FOOD SCIENCE, B.S.
+cooks, institution and cafeteria* FOOD SCIENCE, B.S.
+cooks, private household* FOOD SCIENCE, B.S.
+cooks, restaurant* FOOD SCIENCE, B.S.
+cooks, short order* FOOD SCIENCE, B.S.
+counter attendants, cafeteria, food concession, and coffee shop* FOOD SCIENCE, B.S.
+dining room and cafeteria attendants and bartender helpers* FOOD SCIENCE, B.S.
+dishwashers* HEALTH AND THE HUMANITIES, CERTIFICATE
+first-line supervisors of food preparation and serving workers* FOOD SCIENCE, B.S.
+food preparation and serving related workers, all other* FOOD SCIENCE, B.S.
+food preparation workers* FOOD SCIENCE, B.S.
+food servers, nonrestaurant* FOOD SCIENCE, B.S.
+hosts and hostesses, restaurant, lounge, and coffee shop* FOOD SCIENCE, B.S.
+waiters and waitresses* FOOD SCIENCE, B.S.
+acupuncturists* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+acute care nurses* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+advanced practice psychiatric nurses* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+allergists and immunologists* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+anesthesiologist assistants* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+anesthesiologists* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+art therapists* INTRODUCTORY STUDIES IN DANCE/MOVEMENT THERAPY, CERTIFICATE
+athletic trainers* KINESIOLOGY, B.S.
+audiologists* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+cardiovascular technologists and technicians* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+chiropractors* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+clinical nurse specialists* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+critical care nurses* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+cytogenetic technologists* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+cytotechnologists* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+dental hygienists* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+dentists, all other specialists* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+dentists, general* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+dermatologists* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+diagnostic medical sonographers* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+dietetic technicians* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+dietitians and nutritionists* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+emergency medical technicians and paramedics* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+exercise physiologists* KINESIOLOGY, B.S.
+family and general practitioners* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+genetic counselors* GENETICS AND GENOMICS, B.S.
+health diagnosing and treating practitioners, all other* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+health technologists and technicians, all other* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+healthcare practitioners and technical workers, all other* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+hearing aid specialists* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+histotechnologists and histologic technicians* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+hospitalists* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+internists, general* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+licensed practical and licensed vocational nurses* HEALTH PROMOTION AND HEALTH EQUITY, B.S.
+rehabilitation therapists* REHABILITATION PSYCHOLOGY, B.S.
+magnetic resonance imaging technologists* BIOMEDICAL ENGINEERING, B.S.
+medical and clinical laboratory technicians* BIOMEDICAL ENGINEERING, B.S.
+medical and clinical laboratory technologists* BIOMEDICAL ENGINEERING, B.S.
+medical records and health information technicians* BIOMEDICAL ENGINEERING, B.S.
+midwives* NURSING, BSN
+music therapists* INTRODUCTORY STUDIES IN DANCE/MOVEMENT THERAPY, CERTIFICATE
+naturopathic physicians* HEALTH AND THE HUMANITIES, CERTIFICATE
+neurodiagnostic technologists* NEUROBIOLOGY, B.S.
+neurologists* NEUROBIOLOGY, B.S.
+nuclear medicine physicians* NEUROBIOLOGY, B.S.
+nuclear medicine technologists* NEUROBIOLOGY, B.S.
+nurse anesthetists* NURSING, BSN
+nurse midwives* NURSING, BSN
+nurse practitioners* NURSING, BSN
+obstetricians and gynecologists* HEALTH AND THE HUMANITIES, CERTIFICATE
+occupational health and safety specialists* HEALTH AND THE HUMANITIES, CERTIFICATE
+occupational health and safety technicians* HEALTH AND THE HUMANITIES, CERTIFICATE
+occupational therapists* HEALTH AND THE HUMANITIES, CERTIFICATE
+ophthalmic medical technicians* HEALTH AND THE HUMANITIES, CERTIFICATE
+ophthalmic medical technologists* HEALTH AND THE HUMANITIES, CERTIFICATE
+ophthalmologists* HEALTH AND THE HUMANITIES, CERTIFICATE
+opticians, dispensing* HEALTH AND THE HUMANITIES, CERTIFICATE
+optometrists* HEALTH AND THE HUMANITIES, CERTIFICATE
+oral and maxillofacial surgeons* HEALTH AND THE HUMANITIES, CERTIFICATE
+orthodontists* HEALTH AND THE HUMANITIES, CERTIFICATE
+orthoptists* HEALTH AND THE HUMANITIES, CERTIFICATE
+orthotists and prosthetists* HEALTH AND THE HUMANITIES, CERTIFICATE
+pathologists* PLANT PATHOLOGY, B.S.* HEALTH AND THE HUMANITIES, CERTIFICATE
+pediatricians, general* HEALTH AND THE HUMANITIES, CERTIFICATE
+pharmacists* HEALTH AND THE HUMANITIES, CERTIFICATE
+pharmacy technicians* HEALTH AND THE HUMANITIES, CERTIFICATE
+physical medicine and rehabilitation physicians* HEALTH AND THE HUMANITIES, CERTIFICATE
+physical therapists* HEALTH AND THE HUMANITIES, CERTIFICATE
+physician assistants* HEALTH AND THE HUMANITIES, CERTIFICATE
+physicians and surgeons, all other* HEALTH AND THE HUMANITIES, CERTIFICATE
+podiatrists* HEALTH AND THE HUMANITIES, CERTIFICATE
+preventive medicine physicians* HEALTH AND THE HUMANITIES, CERTIFICATE
+prosthodontists* HEALTH AND THE HUMANITIES, CERTIFICATE
+psychiatric technicians* HEALTH AND THE HUMANITIES, CERTIFICATE
+psychiatrists* HEALTH AND THE HUMANITIES, CERTIFICATE
+radiation therapists* HEALTH AND THE HUMANITIES, CERTIFICATE
+radiologic technicians* BIOMEDICAL ENGINEERING, B.S.
+radiologic technologists* BIOMEDICAL ENGINEERING, B.S.
+radiologists* HEALTH AND THE HUMANITIES, CERTIFICATE
+recreational therapists* HEALTH AND THE HUMANITIES, CERTIFICATE
+registered nurses* HEALTH AND THE HUMANITIES, CERTIFICATE
+respiratory therapists* HEALTH AND THE HUMANITIES, CERTIFICATE
+respiratory therapy technicians* BIOMEDICAL ENGINEERING, B.S.
+speech-language pathologists* HEALTH AND THE HUMANITIES, CERTIFICATE
+sports medicine physicians* HEALTH AND THE HUMANITIES, CERTIFICATE
+surgeons* HEALTH AND THE HUMANITIES, CERTIFICATE
+surgical assistants* HEALTH AND THE HUMANITIES, CERTIFICATE
+surgical technologists* BIOMEDICAL ENGINEERING, B.S.
+therapists, all other* HEALTH AND THE HUMANITIES, CERTIFICATE
+urologists* HEALTH AND THE HUMANITIES, CERTIFICATE
+veterinarians* HEALTH AND THE HUMANITIES, CERTIFICATE
+veterinary technologists and technicians* HEALTH AND THE HUMANITIES, CERTIFICATE
+dental assistants* HEALTH AND THE HUMANITIES, CERTIFICATE
+endoscopy technicians* BIOMEDICAL ENGINEERING, B.S.
+healthcare support workers, all other* HEALTH AND THE HUMANITIES, CERTIFICATE
+home health aides* HEALTH AND THE HUMANITIES, CERTIFICATE
+massage therapists* HEALTH AND THE HUMANITIES, CERTIFICATE
+medical assistants* HEALTH AND THE HUMANITIES, CERTIFICATE
+medical equipment preparers* BIOMEDICAL ENGINEERING, B.S.
+medical transcriptionists* HEALTH AND THE HUMANITIES, CERTIFICATE
+nursing assistants* NURSING, BSN
+occupational therapy aides* HEALTH AND THE HUMANITIES, CERTIFICATE
+occupational therapy assistants* HEALTH AND THE HUMANITIES, CERTIFICATE
+orderlies* HEALTH AND THE HUMANITIES, CERTIFICATE
+pharmacy aides* PHARMACOLOGY AND TOXICOLOGY, B.S.
+phlebotomists* HEALTH AND THE HUMANITIES, CERTIFICATE
+physical therapist aides* HEALTH AND THE HUMANITIES, CERTIFICATE
+physical therapist assistants* HEALTH AND THE HUMANITIES, CERTIFICATE
+psychiatric aides* HEALTH AND THE HUMANITIES, CERTIFICATE
+speech-language pathology assistants* COMMUNICATION SCIENCES AND DISORDERS, B.S.
+veterinary assistants and laboratory animal caretakers* ANIMAL SCIENCES, B.S.
+aircraft mechanics and service technicians* MECHANICAL ENGINEERING, B.S.
+automotive body and related repairers* MECHANICAL ENGINEERING, B.S.
+automotive glass installers and repairers* MECHANICAL ENGINEERING, B.S.
+automotive master mechanics* MECHANICAL ENGINEERING, B.S.
+automotive service technicians and mechanics* MECHANICAL ENGINEERING, B.S.
+automotive specialty technicians* MECHANICAL ENGINEERING, B.S.
+avionics technicians* MECHANICAL ENGINEERING, B.S.
+bicycle repairers* MECHANICAL ENGINEERING, B.S.
+bus and truck mechanics and diesel engine specialists* MECHANICAL ENGINEERING, B.S.
+camera and photographic equipment repairers* MECHANICAL ENGINEERING, B.S.
+coin, vending, and amusement machine servicers and repairers* MECHANICAL ENGINEERING, B.S.
+commercial divers* NAVAL SCIENCE, BNS
+computer, automated teller, and office machine repairers* MECHANICAL ENGINEERING, B.S.
+control and valve installers and repairers* MECHANICAL ENGINEERING, B.S.
+electric motor, power tool, and related repairers* ELECTRICAL ENGINEERING, B.S.
+electrical and electronics installers and repairers, transportation equipment* ELECTRICAL ENGINEERING, B.S.
+electrical and electronics repairers, commercial and industrial equipment* ELECTRICAL ENGINEERING, B.S.
+electrical and electronics repairers, powerhouse, substation, and relay* ELECTRICAL ENGINEERING, B.S.
+electrical power-line installers and repairers* ELECTRICAL ENGINEERING, B.S.
+electronic equipment installers and repairers, motor vehicles* ELECTRICAL ENGINEERING, B.S.
+electronic home entertainment equipment installers and repairers* ELECTRICAL ENGINEERING, B.S.
+fabric menders* TEXTILES AND DESIGN, CERTIFICATE
+farm equipment mechanics and service technicians* MECHANICAL ENGINEERING, B.S.
+first-line supervisors of mechanics, installers, and repairers* MECHANICAL ENGINEERING, B.S.
+geothermal technicians* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE
+heating and air conditioning mechanics and installers* MECHANICAL ENGINEERING, B.S.
+heating, air conditioning, and refrigeration mechanics and installers* MECHANICAL ENGINEERING, B.S.
+helpers--installation, maintenance, and repair workers* MECHANICAL ENGINEERING, B.S.
+home appliance repairers* MECHANICAL ENGINEERING, B.S.
+industrial machinery mechanics* MECHANICAL ENGINEERING, B.S.
+installation, maintenance, and repair workers, all other* MECHANICAL ENGINEERING, B.S.
+locksmiths and safe repairers* MECHANICAL ENGINEERING, B.S.
+maintenance and repair workers, general* MECHANICAL ENGINEERING, B.S.
+maintenance workers, machinery* MECHANICAL ENGINEERING, B.S.
+manufactured building and mobile home installers* MECHANICAL ENGINEERING, B.S.
+mechanical door repairers* MECHANICAL ENGINEERING, B.S.
+medical equipment repairers* MECHANICAL ENGINEERING, B.S.
+millwrights* MECHANICAL ENGINEERING, B.S.
+mobile heavy equipment mechanics* MECHANICAL ENGINEERING, B.S.
+motorboat mechanics and service technicians* MECHANICAL ENGINEERING, B.S.
+motorcycle mechanics* MECHANICAL ENGINEERING, B.S.
+musical instrument repairers and tuners* MECHANICAL ENGINEERING, B.S.
+outdoor power equipment and other small engine mechanics* MECHANICAL ENGINEERING, B.S.
+precision instrument and equipment repairers, all other* MECHANICAL ENGINEERING, B.S.
+radio mechanics* MECHANICAL ENGINEERING, B.S.
+radio, cellular, and tower equipment installers and repairers* MECHANICAL ENGINEERING, B.S.
+rail car repairers* MECHANICAL ENGINEERING, B.S.
+recreational vehicle service technicians* MECHANICAL ENGINEERING, B.S.
+refractory materials repairers* MECHANICAL ENGINEERING, B.S.
+refrigeration mechanics and installers* MECHANICAL ENGINEERING, B.S.
+riggers* MECHANICAL ENGINEERING, B.S.
+security and fire alarm systems installers* MECHANICAL ENGINEERING, B.S.
+signal and track switch repairers* MECHANICAL ENGINEERING, B.S.
+telecommunications equipment installers and repairers* MECHANICAL ENGINEERING, B.S.
+telecommunications line installers and repairers* MECHANICAL ENGINEERING, B.S.
+tire repairers and changers* MECHANICAL ENGINEERING, B.S.
+watch repairers* MECHANICAL ENGINEERING, B.S.
+wind turbine service technicians* MECHANICAL ENGINEERING, B.S.
+administrative law judges, adjudicators, and hearing officers* LEGAL STUDIES, B.S.
+arbitrators, mediators, and conciliators* LEGAL STUDIES, B.S.
+court reporters* LEGAL STUDIES, B.S.
+judges, magistrate judges, and magistrates* LEGAL STUDIES, B.S.
+judicial law clerks* LEGAL STUDIES, B.S.
+lawyers* LEGAL STUDIES, B.S.
+legal support workers, all other* LEGAL STUDIES, B.S.
+paralegals and legal assistants* LEGAL STUDIES, B.S.
+title examiners, abstractors, and searchers* LEGAL STUDIES, B.S.
+agricultural and food science technicians* FOOD SCIENCE, B.S.
+agricultural technicians* AGRONOMY, B.S.
+animal scientists* ANIMAL SCIENCES, B.S.
+anthropologists* ANTHROPOLOGY, B.S.
+archeologists* ARCHAEOLOGY, CERTIFICATE
+astronomers* ASTRONOMY–PHYSICS, B.S.
+atmospheric and space scientists* ASTRONOMY–PHYSICS, B.S.
+biochemists and biophysicists* BIOCHEMISTRY, B.S. (CALS)
+bioinformatics scientists* BIOLOGICAL SYSTEMS ENGINEERING, B.S.
+biological scientists, all other* BIOLOGY, B.S. (CALS)
+biological technicians* BIOLOGY, B.S. (CALS)
+biologists* BIOLOGY, B.S. (CALS)
+chemical technicians* CHEMISTRY, B.S.
+chemists* CHEMISTRY, B.S.
+city and regional planning aides* LANDSCAPE AND URBAN STUDIES, B.A.
+climate change analysts* ENVIRONMENTAL SCIENCES, B.S. (CALS)
+clinical psychologists* PSYCHOLOGY, B.S.
+clinical, counseling, and school psychologists* PSYCHOLOGY, B.S.
+conservation scientists* ENVIRONMENTAL SCIENCES, B.S. (CALS)
+counseling psychologists* PSYCHOLOGY, B.S.
+economists* ECONOMICS, B.S.
+environmental economists* ENVIRONMENTAL SCIENCES, B.S. (CALS)
+environmental restoration planners* ENVIRONMENTAL SCIENCES, B.S. (CALS)
+environmental science and protection technicians, including health* ENVIRONMENTAL SCIENCES, B.S. (CALS)
+environmental scientists and specialists, including health* ENVIRONMENTAL SCIENCES, B.S. (CALS)
+epidemiologists* HEALTH AND THE HUMANITIES, CERTIFICATE
+food science technicians* FOOD SCIENCE, B.S.
+food scientists and technologists* FOOD SCIENCE, B.S.
+forensic science technicians* COMPUTER SCIENCES, B.S.
+forest and conservation technicians* FOREST SCIENCE, B.S.
+foresters* FOREST SCIENCE, B.S.
+geneticists* GENETICS AND GENOMICS, B.S.
+geographers* GEOGRAPHY, B.S.
+geological and petroleum technicians* GEOLOGY AND GEOPHYSICS, B.S.
+geological sample test technicians* GEOLOGY AND GEOPHYSICS, B.S.
+geophysical data technicians* GEOLOGY AND GEOPHYSICS, B.S.
+geoscientists* GEOLOGY AND GEOPHYSICS, B.S.
+historians* HISTORY, B.S.
+hydrologists* CIVIL ENGINEERING, B.S.
+industrial ecologists* ENVIRONMENTAL STUDIES, CERTIFICATE
+industrial-organizational psychologists* PSYCHOLOGY, B.S.
+life scientists, all other* LIFE SCIENCES COMMUNICATION, B.S.
+life, physical, and social science technicians, all other* LIFE SCIENCES COMMUNICATION, B.S.
+materials scientists* MATERIALS SCIENCE AND ENGINEERING, B.S.
+medical scientists* HEALTH AND THE HUMANITIES, CERTIFICATE
+microbiologists* MICROBIOLOGY, B.S. (CALS)
+molecular and cellular biologists* MOLECULAR AND CELL BIOLOGY, B.S.
+neuropsychologists and clinical neuropsychologists* NEUROBIOLOGY, B.S.
+nuclear equipment operation technicians* NUCLEAR ENGINEERING, B.S.
+nuclear monitoring technicians* NUCLEAR ENGINEERING, B.S.
+nuclear technicians* NUCLEAR ENGINEERING, B.S.
+park naturalists* LANDSCAPE AND URBAN STUDIES, B.A.
+physical scientists, all other* PHYSICS, B.S.
+physicists* PHYSICS, B.S.
+political scientists* POLITICAL SCIENCE, B.S.
+precision agriculture technicians* AGRICULTURAL AND APPLIED ECONOMICS, B.S.
+psychologists, all other* PSYCHOLOGY, B.S.
+quality control analysts* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+range managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+remote sensing scientists and technologists* MECHANICAL ENGINEERING, B.S.
+remote sensing technicians* MECHANICAL ENGINEERING, B.S.
+school psychologists* PSYCHOLOGY, B.S.
+social science research assistants* SOCIAL WELFARE, B.S.
+social scientists and related workers, all other* SOCIAL WELFARE, B.S.
+sociologists* SOCIAL WELFARE, B.S.
+soil and plant scientists* SOIL SCIENCE, B.S.
+soil and water conservationists* SOIL SCIENCE, B.S.
+survey researchers* STATISTICS, B.S.
+transportation planners* CIVIL ENGINEERING, B.S.
+urban and regional planners* LANDSCAPE AND URBAN STUDIES, B.A.
+zoologists and wildlife biologists* ZOOLOGY, B.S.
+administrative services managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+advertising and promotions managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+aquacultural managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+architectural and engineering managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+biofuels production managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+biofuels/biodiesel technology and product development managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+biomass power plant managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+brownfield redevelopment specialists and site managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+chief executives* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+chief sustainability officers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+clinical research coordinators* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+compensation and benefits managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+compliance managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+computer and information systems managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+construction managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+distance learning coordinators* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+education administrators, all other* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+education administrators, elementary and secondary school* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+education administrators, postsecondary* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+education administrators, preschool and childcare center/program* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+emergency management directors* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+farm and ranch managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+farmers, ranchers, and other agricultural managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+financial managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+financial managers, branch or department* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+fitness and wellness coordinators* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+food service managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+funeral service managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+gaming managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+general and operations managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+geothermal production managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+green marketers* BUSINESS: MARKETING, BBA
+human resources managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+hydroelectric production managers* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE
+industrial production managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+investment fund managers* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+legislators* LEGAL STUDIES, B.S.
+lodging managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+logistics managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+loss prevention managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+managers, all other* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+marketing managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+medical and health services managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+methane/landfill gas collection system operators* CHEMICAL ENGINEERING, B.S.
+natural sciences managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+nursery and greenhouse managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+postmasters and mail superintendents* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+property, real estate, and community association managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+public relations and fundraising managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+purchasing managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+quality control systems managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+regulatory affairs managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+sales managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+security managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+social and community service managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+storage and distribution managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+supply chain managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+training and development managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+transportation managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+transportation, storage, and distribution managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+treasurers and controllers* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+water resource specialists* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+wind energy operations managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+wind energy project managers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+air crew members* MECHANICAL ENGINEERING, B.S.
+air crew officers* MECHANICAL ENGINEERING, B.S.
+aircraft launch and recovery officers* MECHANICAL ENGINEERING, B.S.
+aircraft launch and recovery specialists* MECHANICAL ENGINEERING, B.S.
+armored assault vehicle crew members* MECHANICAL ENGINEERING, B.S.
+armored assault vehicle officers* MECHANICAL ENGINEERING, B.S.
+artillery and missile crew members* MECHANICAL ENGINEERING, B.S.
+artillery and missile officers* MECHANICAL ENGINEERING, B.S.
+command and control center officers* MECHANICAL ENGINEERING, B.S.
+command and control center specialists* MECHANICAL ENGINEERING, B.S.
+first-line supervisors of air crew members* MECHANICAL ENGINEERING, B.S.
+first-line supervisors of all other tactical operations specialists* MECHANICAL ENGINEERING, B.S.
+first-line supervisors of weapons specialists/crew members* MECHANICAL ENGINEERING, B.S.
+infantry* MECHANICAL ENGINEERING, B.S.
+infantry officers* MECHANICAL ENGINEERING, B.S.
+military enlisted tactical operations and air/weapons specialists and crew members, all other* MECHANICAL ENGINEERING, B.S.
+military officer special and tactical operations leaders, all other* MECHANICAL ENGINEERING, B.S.
+radar and sonar technicians* MECHANICAL ENGINEERING, B.S.
+special forces* MECHANICAL ENGINEERING, B.S.
+special forces officers* MECHANICAL ENGINEERING, B.S.
+bill and account collectors* BUSINESS: ACCOUNTING, BBA
+billing and posting clerks* BUSINESS: ACCOUNTING, BBA
+billing, cost, and rate clerks* BUSINESS: ACCOUNTING, BBA
+bioinformatics technicians* BIOLOGICAL SYSTEMS ENGINEERING, B.S.
+bookkeeping, accounting, and auditing clerks* BUSINESS: ACCOUNTING, BBA
+brokerage clerks* BUSINESS: ACCOUNTING, BBA
+cargo and freight agents* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+communications equipment operators, all other* TECHNICAL COMMUNICATION, CERTIFICATE
+computer operators* COMPUTER ENGINEERING, B.S.
+correspondence clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+couriers and messengers* TECHNICAL COMMUNICATION, CERTIFICATE
+court clerks* PUBLIC POLICY, CERTIFICATE
+court, municipal, and license clerks* PUBLIC POLICY, CERTIFICATE
+credit authorizers* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+credit authorizers, checkers, and clerks* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+credit checkers* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+customer service representatives* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+data entry keyers* DATA SCIENCE, B.S.
+dispatchers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+eligibility interviewers, government programs* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+executive secretaries and executive administrative assistants* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+file clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+financial clerks, all other* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+first-line supervisors* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+freight forwarders* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+gaming cage workers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+hotel, motel, and resort desk clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+human resources assistants* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+information and record clerks, all other* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+insurance claims and policy processing clerks* BUSINESS: RISK MANAGEMENT AND INSURANCE, BBA
+insurance claims clerks* BUSINESS: RISK MANAGEMENT AND INSURANCE, BBA
+insurance policy processing clerks* BUSINESS: RISK MANAGEMENT AND INSURANCE, BBA
+interviewers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+legal secretaries* LEGAL STUDIES, B.S.
+library assistants, clerical* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+license clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+loan interviewers and clerks* PERSONAL FINANCE, B.S.
+mail clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+marking clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+medical secretaries* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+meter readers, utilities* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+municipal clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+new accounts clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+office and administrative support workers, all other* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+office clerks, general* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+office machine operators* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+order clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+order fillers, wholesale and retail sales* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+patient representatives* HEALTH AND THE HUMANITIES, CERTIFICATE
+payroll and timekeeping clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+police, fire, and ambulance dispatchers* PUBLIC POLICY, CERTIFICATE
+postal service clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+postal service mail carriers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+postal service mail sorters, processors, and processing machine operators* MECHANICAL ENGINEERING, B.S.
+procurement clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+production, planning, and expediting clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+proofreaders and copy markers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+receptionists and information clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+reservation and transportation ticket agents and travel clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+administrative assistants* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+shipping, receiving, and traffic clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+statement clerks* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+statistical assistants* STATISTICS, B.S.
+stock clerks and order fillers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+stock clerks, sales floor* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+stock clerks- stockroom, warehouse, or storage yard* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+switchboard operators, including answering service* MECHANICAL ENGINEERING, B.S.
+telephone operators* MECHANICAL ENGINEERING, B.S.
+tellers* MECHANICAL ENGINEERING, B.S.
+weighers, measurers, checkers, and samplers, recordkeeping* MECHANICAL ENGINEERING, B.S.
+word processors and typists* MECHANICAL ENGINEERING, B.S.
+amusement and recreation attendants* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+animal trainers* ANIMAL SCIENCES, B.S.
+baggage porters and bellhops* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+barbers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+childcare workers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+concierges* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+costume attendants* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+entertainment attendants and related workers, all other* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+first-line supervisors of personal service workers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+fitness trainers and aerobics instructors* KINESIOLOGY, B.S.
+funeral attendants* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+gaming and sports book writers and runners* GAME DESIGN, CERTIFICATE
+gaming dealers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+gaming service workers, all other* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+gaming supervisors* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+hairdressers, hairstylists, and cosmetologists* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+locker room, coatroom, and dressing room attendants* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+makeup artists, theatrical and performance* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+manicurists and pedicurists* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+morticians, undertakers, and funeral directors* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+motion picture projectionists* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+nannies* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+nonfarm animal caretakers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+personal care aides* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+personal care and service workers, all other* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+recreation workers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+residential advisors* BUSINESS: REAL ESTATE AND URBAN LAND ECONOMICS, BBA
+shampooers* ART, B.S.
+skincare specialists* ART, B.S.
+slot supervisors* BUSINESS: MARKETING, BBA
+spa managers* BUSINESS: MARKETING, BBA
+tour guides and escorts* BUSINESS: MARKETING, BBA
+travel guides* BUSINESS: MARKETING, BBA
+ushers, lobby attendants, and ticket takers* BUSINESS: MARKETING, BBA
+adhesive bonding machine operators and tenders* MECHANICAL ENGINEERING, B.S.
+aircraft structure, surfaces, rigging, and systems assemblers* MECHANICAL ENGINEERING, B.S.
+assemblers and fabricators, all other* MECHANICAL ENGINEERING, B.S.
+bakers* FOOD SCIENCE, B.S.
+biofuels processing technicians* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE
+biomass plant technicians* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE
+butchers and meat cutters* CIVIL ENGINEERING, B.S.
+cabinetmakers and bench carpenters* CIVIL ENGINEERING, B.S.
+chemical equipment operators and tenders* CHEMICAL ENGINEERING, B.S.
+chemical plant and system operators* CHEMICAL ENGINEERING, B.S.
+cleaning, washing, and metal pickling equipment operators and tenders* CIVIL ENGINEERING, B.S.
+coating, painting, and spraying machine setters, operators, and tenders* CIVIL ENGINEERING, B.S.
+coil winders, tapers, and finishers* CIVIL ENGINEERING, B.S.
+computer numerically controlled machine tool programmers, metal and plastic* MECHANICAL ENGINEERING, B.S.
+computer-controlled machine tool operators, metal and plastic* MECHANICAL ENGINEERING, B.S.
+cooling and freezing equipment operators and tenders* MECHANICAL ENGINEERING, B.S.
+crushing, grinding, and polishing machine setters, operators, and tenders* MECHANICAL ENGINEERING, B.S.
+cutters and trimmers, hand* CIVIL ENGINEERING, B.S.
+cutting and slicing machine setters, operators, and tenders* CIVIL ENGINEERING, B.S.
+cutting, punching, and press machine setters, operators, and tenders, metal and plastic* MATERIALS SCIENCE AND ENGINEERING, B.S.
+dental laboratory technicians* BIOMEDICAL ENGINEERING, B.S.
+drilling and boring machine tool setters, operators, and tenders, metal and plastic* MATERIALS SCIENCE AND ENGINEERING, B.S.
+electrical and electronic equipment assemblers* MECHANICAL ENGINEERING, B.S.
+electromechanical equipment assemblers* MECHANICAL ENGINEERING, B.S.
+engine and other machine assemblers* MECHANICAL ENGINEERING, B.S.
+etchers and engravers* CIVIL ENGINEERING, B.S.
+extruding and drawing machine setters, operators, and tenders, metal and plastic* CIVIL ENGINEERING, B.S.
+extruding and forming machine setters, operators, and tenders, synthetic and glass fibers* CIVIL ENGINEERING, B.S.
+extruding, forming, pressing, and compacting machine setters, operators, and tenders* CIVIL ENGINEERING, B.S.
+fabric and apparel patternmakers* TEXTILES AND FASHION DESIGN, B.S.
+fiberglass laminators and fabricators* CIVIL ENGINEERING, B.S.
+first-line supervisors of production and operating workers* CIVIL ENGINEERING, B.S.
+food and tobacco roasting, baking, and drying machine operators and tenders* CIVIL ENGINEERING, B.S.
+food batchmakers* CIVIL ENGINEERING, B.S.
+food cooking machine operators and tenders* CIVIL ENGINEERING, B.S.
+food processing workers, all other* CIVIL ENGINEERING, B.S.
+forging machine setters, operators, and tenders, metal and plastic* CIVIL ENGINEERING, B.S.
+foundry mold and coremakers* CIVIL ENGINEERING, B.S.
+furnace, kiln, oven, drier, and kettle operators and tenders* CIVIL ENGINEERING, B.S.
+furniture finishers* CIVIL ENGINEERING, B.S.
+gas plant operators* CIVIL ENGINEERING, B.S.
+gem and diamond workers* CIVIL ENGINEERING, B.S.
+glass blowers, molders, benders, and finishers* CIVIL ENGINEERING, B.S.
+grinding and polishing workers, hand* CIVIL ENGINEERING, B.S.
+grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic* CIVIL ENGINEERING, B.S.
+heat treating equipment setters, operators, and tenders, metal and plastic* CIVIL ENGINEERING, B.S.
+helpers--production workers* CIVIL ENGINEERING, B.S.
+hydroelectric plant technicians* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE
+inspectors, testers, sorters, samplers, and weighers* MATERIALS SCIENCE AND ENGINEERING, B.S.
+jewelers* MATERIALS SCIENCE AND ENGINEERING, B.S.
+jewelers and precious stone and metal workers* CIVIL ENGINEERING, B.S.
+lathe and turning machine tool setters, operators, and tenders, metal and plastic* CIVIL ENGINEERING, B.S.
+laundry and dry-cleaning workers* CIVIL ENGINEERING, B.S.
+layout workers, metal and plastic* CIVIL ENGINEERING, B.S.
+machinists* CIVIL ENGINEERING, B.S.* ANIMAL SCIENCES, B.S.
 meat, poultry, and fish cutters and trimmers
-medical appliance technicians
-metal workers and plastic workers, all other
-metal-refining furnace operators and tenders
-methane/landfill gas generation system technicians
-milling and planing machine setters, operators, and tenders, metal and plastic
-mixing and blending machine setters, operators, and tenders
-model makers, metal and plastic
-model makers, wood
-molders, shapers, and casters, except metal and plastic
-molding and casting workers
-molding, coremaking, and casting machine setters, operators, and tenders, metal and plastic
-multiple machine tool setters, operators, and tenders, metal and plastic
-nuclear power reactor operators
-ophthalmic laboratory technicians
-packaging and filling machine operators and tenders
-painters, transportation equipment
-painting, coating, and decorating workers
-paper goods machine setters, operators, and tenders
-patternmakers, metal and plastic
-patternmakers, wood
-petroleum pump system operators, refinery operators, and gaugers
-photographic process workers and processing machine operators
-plant and system operators, all other
-plating and coating machine setters, operators, and tenders, metal and plastic
-potters, manufacturing
-pourers and casters, metal
-power distributors and dispatchers
-power plant operators
-precious metal workers
-prepress technicians and workers
-pressers, textile, garment, and related materials
-print binding and finishing workers
-printing press operators
-production workers, all other
-recycling and reclamation workers
-rolling machine setters, operators, and tenders, metal and plastic
-sawing machine setters, operators, and tenders, wood
-semiconductor processors
-separating, filtering, clarifying, precipitating, and still machine setters, operators, and tenders
-sewers, hand
-sewing machine operators
-shoe and leather workers and repairers
-shoe machine operators and tenders
-slaughterers and meat packers
-solderers and brazers
-stationary engineers and boiler operators
-stone cutters and carvers, manufacturing
-structural metal fabricators and fitters
-tailors, dressmakers, and custom sewers
-team assemblers
-textile bleaching and dyeing machine operators and tenders
-textile cutting machine setters, operators, and tenders
-textile knitting and weaving machine setters, operators, and tenders
-textile winding, twisting, and drawing out machine setters, operators, and tenders
-textile, apparel, and furnishings workers, all other
-timing device assemblers and adjusters
-tire builders
-tool and die makers
-tool grinders, filers, and sharpeners
-upholsterers
-water and wastewater treatment plant and system operators
-welders, cutters, and welder fitters
-welders, cutters, solderers, and brazers
-welding, soldering, and brazing machine setters, operators, and tenders
-woodworkers, all other
-woodworking machine setters, operators, and tenders, except sawing
-animal control workers
-bailiffs
-correctional officers and jailers
-criminal investigators and special agents
-crossing guards
-detectives and criminal investigators
-fire inspectors
-fire inspectors and investigators
-fire investigators
-firefighters
-first-line supervisors of correctional officers
-first-line supervisors of fire fighting and prevention workers
-first-line supervisors of police and detectives
-first-line supervisors of protective service workers, all other
-fish and game wardens
-forest fire fighting and prevention supervisors
-forest fire inspectors and prevention specialists
-forest firefighters
-gaming surveillance officers and gaming investigators
-immigration and customs inspectors
-intelligence analysts
-lifeguards, ski patrol, and other recreational protective service workers
-municipal fire fighting and prevention supervisors
-municipal firefighters
-parking enforcement workers
-police and sheriff's patrol officers
-police detectives
-police identification and records officers
-police patrol officers
-private detectives and investigators
-protective service workers, all other
-retail loss prevention specialists
-security guards
-sheriffs and deputy sheriffs
-transit and railroad police
-transportation security screeners
-advertising sales agents
-cashiers
-counter and rental clerks
-demonstrators and product promoters
-door-to-door sales workers, news and street vendors, and related workers
-energy brokers
-first-line supervisors of non-retail sales workers
-first-line supervisors of retail sales workers
-gaming change persons and booth cashiers
-insurance sales agents
-models
-parts salespersons
-real estate brokers
-real estate sales agents
-retail salespersons
-sales agents, financial services
-sales agents, securities and commodities
-sales and related workers, all other
-sales engineers
-sales representatives, services, all other
-sales representatives, wholesale and manufacturing, except technical and scientific products
-sales representatives, wholesale and manufacturing, technical and scientific products
-securities and commodities traders
-securities, commodities, and financial services sales agents
-solar sales representatives and assessors
-telemarketers
-travel agents
-air traffic controllers
-aircraft cargo handling supervisors
-airfield operations specialists
-airline pilots, copilots, and flight engineers
-ambulance drivers and attendants, except emergency medical technicians
-automotive and watercraft service attendants
-aviation inspectors
-bridge and lock tenders
-bus drivers, school or special client
-bus drivers, transit and intercity
-captains, mates, and pilots of water vessels
-cleaners of vehicles and equipment
-commercial pilots
-conveyor operators and tenders
-crane and tower operators
-dredge operators
-driver/sales workers
-excavating and loading machine and dragline operators
-first-line supervisors of helpers, laborers, and material movers, hand
-first-line supervisors of transportation and material-moving machine and vehicle operators
-stock analyst
-flight attendants
-freight and cargo inspectors
-gas compressor and gas pumping station operators
-heavy and tractor-trailer truck drivers
-hoist and winch operators
-industrial truck and tractor operators
-laborers and freight, stock, and material movers, hand
-light truck or delivery services drivers
-loading machine operators, underground mining
-locomotive engineers
-locomotive firers
-machine feeders and offbearers
-material moving workers, all other
-mates- ship, boat, and barge
-mine shuttle car operators
-motor vehicle operators, all other
-motorboat operators
-packers and packagers, hand
-parking lot attendants
-pilots, ship
-pump operators, except wellhead pumpers
-rail transportation workers, all other
-rail yard engineers, dinkey operators, and hostlers
-railroad brake, signal, and switch operators
-railroad conductors and yardmasters
-recycling coordinators
-refuse and recyclable material collectors
-sailors and marine oilers
-ship and boat captains
-ship engineers
-subway and streetcar operators
-tank car, truck, and ship loaders
-taxi drivers and chauffeurs
-traffic technicians
-transportation attendants, except flight attendants
-transportation inspectors
-transportation vehicle, equipment and systems inspectors, except aviation
-transportation workers, all other
-wellhead pumpers wellhead pumpers
+medical appliance technicians* HEALTH AND THE HUMANITIES, CERTIFICATE
+metal workers and plastic workers, all other* CIVIL ENGINEERING, B.S.
+metal-refining furnace operators and tenders* CIVIL ENGINEERING, B.S.
+methane/landfill gas generation system technicians* CIVIL ENGINEERING, B.S.
+milling and planing machine setters, operators, and tenders, metal and plastic* CIVIL ENGINEERING, B.S.
+mixing and blending machine setters, operators, and tenders* CIVIL ENGINEERING, B.S.
+model makers, metal and plastic* CIVIL ENGINEERING, B.S.
+model makers, wood* CIVIL ENGINEERING, B.S.
+molders, shapers, and casters* CIVIL ENGINEERING, B.S.
+molding and casting workers* CIVIL ENGINEERING, B.S.
+molding, coremaking, and casting machine setters, operators, and tenders, metal and plastic* CIVIL ENGINEERING, B.S.
+multiple machine tool setters, operators, and tenders, metal and plastic* CIVIL ENGINEERING, B.S.
+nuclear power reactor operators* NUCLEAR ENGINEERING, B.S.
+ophthalmic laboratory technicians* HEALTH AND THE HUMANITIES, CERTIFICATE
+packaging and filling machine operators and tenders* CIVIL ENGINEERING, B.S.
+painters, transportation equipment* CIVIL ENGINEERING, B.S.
+painting, coating, and decorating workers* CIVIL ENGINEERING, B.S.
+paper goods machine setters, operators, and tenders* CIVIL ENGINEERING, B.S.
+patternmakers, metal and plastic* CIVIL ENGINEERING, B.S.
+patternmakers, wood* CIVIL ENGINEERING, B.S.
+petroleum pump system operators, refinery operators, and gaugers* CIVIL ENGINEERING, B.S.
+photographic process workers and processing machine operators* CIVIL ENGINEERING, B.S.
+plant and system operators, all other* BOTANY, B.S.
+plating and coating machine setters, operators, and tenders, metal and plastic* CIVIL ENGINEERING, B.S.
+potters, manufacturing* CIVIL ENGINEERING, B.S.
+pourers and casters, metal* CIVIL ENGINEERING, B.S.
+power distributors and dispatchers* ENGINEERING THERMAL ENERGY SYSTEMS, CERTIFICATE
+power plant operators* ENGINEERING THERMAL ENERGY SYSTEMS, CERTIFICATE
+precious metal workers* MATERIALS SCIENCE AND ENGINEERING, B.S.
+prepress technicians and workers* MECHANICAL ENGINEERING, B.S.
+pressers, textile, garment, and related materials* TEXTILES AND FASHION DESIGN, B.S.
+print binding and finishing workers* MECHANICAL ENGINEERING, B.S.
+printing press operators* MECHANICAL ENGINEERING, B.S.
+production workers, all other* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+recycling and reclamation workers* SUSTAINABILITY, CERTIFICATE
+rolling machine setters, operators, and tenders, metal and plastic* CIVIL ENGINEERING, B.S.
+sawing machine setters, operators, and tenders, wood* CIVIL ENGINEERING, B.S.
+semiconductor processors* ELECTRICAL ENGINEERING, B.S.
+separating, filtering, clarifying, precipitating, and still machine setters, operators, and tenders* CIVIL ENGINEERING, B.S.
+sewers, hand* TEXTILES AND DESIGN, CERTIFICATE
+sewing machine operators* TEXTILES AND DESIGN, CERTIFICATE
+shoe and leather workers and repairers* CIVIL ENGINEERING, B.S.
+shoe machine operators and tenders* CIVIL ENGINEERING, B.S.
+solderers and brazers* CIVIL ENGINEERING, B.S.
+stationary engineers and boiler operators* CIVIL ENGINEERING, B.S.
+stone cutters and carvers, manufacturing* CIVIL ENGINEERING, B.S.
+structural metal fabricators and fitters* CIVIL ENGINEERING, B.S.
+tailors, dressmakers, and custom sewers* TEXTILES AND DESIGN, CERTIFICATE
+team assemblers* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+textile bleaching and dyeing machine operators and tenders* TEXTILES AND DESIGN, CERTIFICATE
+textile cutting machine setters, operators, and tenders* TEXTILES AND DESIGN, CERTIFICATE
+textile knitting and weaving machine setters, operators, and tenders* TEXTILES AND DESIGN, CERTIFICATE
+textile winding, twisting, and drawing out machine setters, operators, and tenders* TEXTILES AND DESIGN, CERTIFICATE
+textile, apparel, and furnishings workers, all other* TEXTILES AND DESIGN, CERTIFICATE
+timing device assemblers and adjusters* CIVIL ENGINEERING, B.S.
+tire builders* CIVIL ENGINEERING, B.S.
+tool and die makers* CIVIL ENGINEERING, B.S.
+tool grinders, filers, and sharpeners* CIVIL ENGINEERING, B.S.
+upholsterers* CIVIL ENGINEERING, B.S.
+water and wastewater treatment plant and system operators* CIVIL ENGINEERING, B.S.
+welders, cutters, and welder fitters* CIVIL ENGINEERING, B.S.
+welders, cutters, solderers, and brazers* CIVIL ENGINEERING, B.S.
+welding, soldering, and brazing machine setters, operators, and tenders* CIVIL ENGINEERING, B.S.
+woodworkers, all other* CIVIL ENGINEERING, B.S.
+woodworking machine setters, operators, and tenders* CIVIL ENGINEERING, B.S.
+animal control workers* ANIMAL SCIENCES, B.S.
+bailiffs* PUBLIC POLICY, CERTIFICATE
+correctional officers and jailers* PUBLIC POLICY, CERTIFICATE
+criminal investigators and special agents* PUBLIC POLICY, CERTIFICATE
+crossing guards* PUBLIC POLICY, CERTIFICATE
+detectives and criminal investigators* PUBLIC POLICY, CERTIFICATE
+fire inspectors* PUBLIC POLICY, CERTIFICATE
+fire inspectors and investigators* PUBLIC POLICY, CERTIFICATE
+fire investigators* PUBLIC POLICY, CERTIFICATE
+firefighters* PUBLIC POLICY, CERTIFICATE
+first-line supervisors of correctional officers* PUBLIC POLICY, CERTIFICATE
+first-line supervisors of fire fighting and prevention workers* PUBLIC POLICY, CERTIFICATE
+first-line supervisors of police and detectives* PUBLIC POLICY, CERTIFICATE
+first-line supervisors of protective service workers, all other* PUBLIC POLICY, CERTIFICATE
+forest fire fighting and prevention supervisors* PUBLIC POLICY, CERTIFICATE
+forest fire inspectors and prevention specialists* PUBLIC POLICY, CERTIFICATE
+forest firefighters* PUBLIC POLICY, CERTIFICATE
+gaming surveillance officers and gaming investigators* GAME DESIGN, CERTIFICATE
+immigration and customs inspectors* PUBLIC POLICY, CERTIFICATE
+intelligence analysts* COMPUTER SCIENCES, B.S.
+lifeguards, ski patrol, and other recreational protective service workers* PUBLIC POLICY, CERTIFICATE
+municipal fire fighting and prevention supervisors* PUBLIC POLICY, CERTIFICATE
+municipal firefighters* PUBLIC POLICY, CERTIFICATE
+parking enforcement workers* PUBLIC POLICY, CERTIFICATE
+police and sheriff's patrol officers* PUBLIC POLICY, CERTIFICATE
+police detectives* PUBLIC POLICY, CERTIFICATE
+police identification and records officers* PUBLIC POLICY, CERTIFICATE
+police patrol officers* PUBLIC POLICY, CERTIFICATE
+private detectives and investigators* PUBLIC POLICY, CERTIFICATE
+protective service workers, all other* PUBLIC POLICY, CERTIFICATE
+retail loss prevention specialists* PUBLIC POLICY, CERTIFICATE
+security guards* PUBLIC POLICY, CERTIFICATE
+sheriffs and deputy sheriffs* PUBLIC POLICY, CERTIFICATE
+transit and railroad police* PUBLIC POLICY, CERTIFICATE
+transportation security screeners* SOCIAL WELFARE, B.S.
+advertising sales agents* BUSINESS: MARKETING, BBA
+cashiers* BUSINESS: MARKETING, BBA
+counter and rental clerks* BUSINESS: MARKETING, BBA
+demonstrators and product promoters* BUSINESS: MARKETING, BBA
+door-to-door sales workers, news and street vendors, and related workers* BUSINESS: MARKETING, BBA
+energy brokers* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE
+first-line supervisors of non-retail sales workers* BUSINESS: MARKETING, BBA
+first-line supervisors of retail sales workers* BUSINESS: MARKETING, BBA
+gaming change persons and booth cashiers* GAME DESIGN, CERTIFICATE
+insurance sales agents* BUSINESS: RISK MANAGEMENT AND INSURANCE, BBA
+models* COMMUNICATION ARTS, B.S.
+parts salespersons* BUSINESS: MARKETING, BBA
+real estate brokersBUSINESS: REAL ESTATE AND URBAN LAND ECONOMICS, BBA
+real estate sales agents* BUSINESS: REAL ESTATE AND URBAN LAND ECONOMICS, BBA
+retail salespersons* BUSINESS: MARKETING, BBA
+sales agents, financial services* BUSINESS: MARKETING, BBA
+sales agents, securities and commodities* BUSINESS: MARKETING, BBA
+sales and related workers, all other* BUSINESS: MARKETING, BBA
+sales engineers* BUSINESS: MARKETING, BBA
+sales representatives, services, all other* BUSINESS: MARKETING, BBA
+sales representatives, wholesale and manufacturing* BUSINESS: MARKETING, BBA
+securities and commodities traders* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+securities, commodities, and financial services sales agents* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
+solar sales representatives and assessors* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE
+telemarketers* BUSINESS: MARKETING, BBA
+travel agents* MECHANICAL ENGINEERING, B.S.
+air traffic controllers* MECHANICAL ENGINEERING, B.S.
+aircraft cargo handling supervisors* MECHANICAL ENGINEERING, B.S.
+airfield operations specialists* MECHANICAL ENGINEERING, B.S.
+airline pilots, copilots, and flight engineers* MECHANICAL ENGINEERING, B.S.
+ambulance drivers and attendants* MECHANICAL ENGINEERING, B.S.
+automotive and watercraft service attendants* MECHANICAL ENGINEERING, B.S.
+aviation inspectors* MECHANICAL ENGINEERING, B.S.
+bridge and lock tenders* CIVIL ENGINEERING, B.S.
+bus drivers, school or special client* MECHANICAL ENGINEERING, B.S.
+bus drivers, transit and intercity* MECHANICAL ENGINEERING, B.S.
+captains, mates, and pilots of water vessels* NAVAL SCIENCE, BNS
+cleaners of vehicles and equipment* CIVIL ENGINEERING, B.S.
+commercial pilots* MECHANICAL ENGINEERING, B.S.
+conveyor operators and tenders* CIVIL ENGINEERING, B.S.
+crane and tower operators* CIVIL ENGINEERING, B.S.
+dredge operators* CIVIL ENGINEERING, B.S.
+driver/sales workers* BUSINESS: MARKETING, BBA
+excavating and loading machine and dragline operators* CIVIL ENGINEERING, B.S.
+first-line supervisors of helpers, laborers, and material movers, hand* CIVIL ENGINEERING, B.S.
+first-line supervisors of transportation and material-moving machine and vehicle operators* CIVIL ENGINEERING, B.S.
+stock analyst* ECONOMICS, B.S.
+flight attendants* COMMUNICATION ARTS, B.S.
+freight and cargo inspectors* CIVIL ENGINEERING, B.S.
+gas compressor and gas pumping station operators* CIVIL ENGINEERING, B.S.
+heavy and tractor-trailer truck drivers* CIVIL ENGINEERING, B.S.
+hoist and winch operators* CIVIL ENGINEERING, B.S.
+industrial truck and tractor operators* MECHANICAL ENGINEERING, B.S.
+laborers and freight, stock, and material movers, hand* CIVIL ENGINEERING, B.S.
+light truck or delivery services drivers* MECHANICAL ENGINEERING, B.S.
+loading machine operators, underground mining* CIVIL ENGINEERING, B.S.
+locomotive engineers* MECHANICAL ENGINEERING, B.S.
+locomotive firers* MECHANICAL ENGINEERING, B.S.
+machine feeders and offbearers* MECHANICAL ENGINEERING, B.S.
+material moving workers, all other* MECHANICAL ENGINEERING, B.S.
+mates- ship, boat, and barge* MECHANICAL ENGINEERING, B.S.
+mine shuttle car operators* MECHANICAL ENGINEERING, B.S.
+motor vehicle operators, all other* MECHANICAL ENGINEERING, B.S.
+motorboat operators* NAVAL SCIENCE, BNS
+packers and packagers, hand* MECHANICAL ENGINEERING, B.S.
+parking lot attendants* BUSINESS: MANAGEMENT AND HUMAN RESOURCES, BBA
+pump operators* CIVIL ENGINEERING, B.S.
+rail transportation workers, all other* CIVIL ENGINEERING, B.S.
+rail yard engineers, dinkey operators, and hostlers* CIVIL ENGINEERING, B.S.
+railroad brake, signal, and switch operators* CIVIL ENGINEERING, B.S.
+railroad conductors and yardmasters* CIVIL ENGINEERING, B.S.
+recycling coordinators* ENVIRONMENTAL SCIENCES, B.S. (L&S)
+refuse and recyclable material collectors* ENVIRONMENTAL SCIENCES, B.S. (L&S)
+sailors and marine oilers* NAVAL SCIENCE, BNS
+ship and boat captains* NAVAL SCIENCE, BNS
+ship engineers* MECHANICAL ENGINEERING, B.S.
+subway and streetcar operators* MECHANICAL ENGINEERING, B.S.
+tank car, truck, and ship loaders* MECHANICAL ENGINEERING, B.S.
+taxi drivers and chauffeurs* MECHANICAL ENGINEERING, B.S.
+traffic technicians* MECHANICAL ENGINEERING, B.S.
+transportation attendants* MECHANICAL ENGINEERING, B.S.
+transportation inspectors* MECHANICAL ENGINEERING, B.S.
+systems inspectors* MECHANICAL ENGINEERING, B.S.
+transportation workers* MECHANICAL ENGINEERING, B.S.
+wellhead pumpers* CIVIL ENGINEERING, B.S.
