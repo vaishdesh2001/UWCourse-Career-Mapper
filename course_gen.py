@@ -2,7 +2,6 @@ import os
 from bs4 import BeautifulSoup
 import requests
 import csv
-import pandas as pd
 from pandas import DataFrame as df
 from fuzzywuzzy import fuzz
 import nltk
@@ -16,7 +15,7 @@ def download(filename, url):
     resp.raise_for_status()
     if ".html" in filename:
         doc = BeautifulSoup(resp.text, "html.parser")
-        f = open(os.path.join("career_files", filename.lower()), "w", encoding="utf-8")
+        f = open(os.path.join(".", "app", "career_files", filename.lower()), "w", encoding="utf-8")
         f.write(str(doc))
         f.close()
 
@@ -43,14 +42,30 @@ def ret_csv_codes():
     return header, data
 
 
+def ret_csv_links():
+    csv_rows = process_csv(os.path.join(".", "app", "majors_links.csv"))
+    header = csv_rows[0]
+    data = csv_rows[1:]
+    return header, data
+
+
 tuple_codes = ret_csv_codes()
 codes_header = tuple_codes[0]
 codes_data = tuple_codes[1]
 
-
 tuple_csv = ret_csv_data()
 csv_header = tuple_csv[0]
 csv_data = tuple_csv[1]
+
+tuple_links = ret_csv_links()
+link_header = tuple_links[0]
+link_data = tuple_links[1]
+
+
+def cell_link(row_idx, col_name):
+    col_idx = link_header.index(col_name)
+    val = link_data[row_idx][col_idx]
+    return val
 
 
 def cell(row_idx, col_name):
@@ -63,6 +78,13 @@ def cell_code(row_idx, col_name):
     col_idx = codes_header.index(col_name)
     val = codes_data[row_idx][col_idx]
     return val
+
+
+def clean_up_text(text):
+    unwanted_chars = ['\n', '\t', '\r', '\xa0', 'â\x80\x93']  # Edit this to include all characters you want to remove
+    for char in unwanted_chars:
+        text = text.replace(char, '')
+    return text
 
 
 def url_gen(str_input):
@@ -347,11 +369,19 @@ def map_code_df(str_input):
 def gen_html(original, df_job):
     # don't forget to add description
     # still gotta do skills
-    start = "<html><body><table><tr><th>course</th><th>name</th><th>description</th></tr>"
+    # start = "<html><body><table><tr><th>course</th><th>name</th><th>description</th></tr>"
+    # for i in range(len(df_job)):
+    #     start += "<tr>"
+    #     start += "<td>" + df_job.at[i, 'course'] + "    " + "</td>" + "<td>" + df_job.at[i, 'name'] + "    " + "</td>"
+    #     start += "<td>" + df_job.at[i, 'description'] + "</td>" + "</tr>"
+    #     if i == 15:
+    #         break
+
+    start = "<html><body><table><tr><th>course</th><th>name</th></tr>"
     for i in range(len(df_job)):
         start += "<tr>"
-        start += "<td>" + df_job.at[i, 'course'] + "    " + "</td>" + "<td>" + df_job.at[i, 'name'] + "    " + "</td>"
-        start += "<td>" + df_job.at[i, 'description'] + "</td>" + "</tr>"
+        start += "<td>" + df_job.at[i, 'courses'] + "    " + "</td>"
+        start += "<td>" + df_job.at[i, 'desc'] + "</td>" + "</tr>"
         if i == 15:
             break
 
@@ -377,25 +407,86 @@ def remove_and(str_input):
     return str_input
 
 
-def main(job_selected):
-    nltk.data.path.append('./nltk_data/corpora/')
-    original = job_selected
-    job_selected = remove_and(job_selected)
-    job_selected = job_selected.strip()
-    df_abbs = map_code_df(job_selected)
-    df_job = map_career_name(job_selected)
-    df_desc = map_career_desc(job_selected)
-    if len(df_abbs) > 0:
-        df_final = pd.concat([df_abbs, df_job, df_desc])
+def ret_all_courses(str_input):
+    f = open(os.path.join(".", "app", "all_text_files", "list_careers.txt"), "r", encoding="utf-8")
+    all_text = f.read()
+    f.close()
+    list_lines = all_text.split("\n")
+    jobs = []
+    majors = []
+    for each in list_lines:
+        parts = each.split("*")
+        if len(parts) == 2:
+            job = parts[0].strip()
+            jobs.append(job)
+            major = parts[1].strip()
+            majors.append(major)
+
+    if str_input in jobs:
+        course = []
+        desc = []
+        fuzzy = []
+        link = ""
+        index = jobs.index(str_input)
+        major = majors[index]
+        for i in range(len(link_data)):
+            if cell_link(i, "majors").lower() == major.lower():
+                link = cell_link(i, "links")
+                break
+        download(str_input + ".html", link + "#requirementstext")
+        f = open(os.path.join(".", "app", "career_files", str_input + ".html"), encoding="utf-8")
+        h_text = f.read()
+        f.close()
+        soup = BeautifulSoup(h_text, "html.parser")
+        tables = soup.find_all("table", {'class': 'sc_courselist'})
+        for each in tables:
+            all_tr = each.find_all("tr")
+            for every in all_tr:
+                tds = every.find_all("td")
+                if len(tds) >= 2:
+                    course_text = clean_up_text(tds[0].get_text()).replace("\u200b", "")
+                    if course_text[-3:].isnumeric():
+                        if course_text[:2] == "or":
+                            course.append(course_text[2:-3] + " " + course_text[-3:])
+                        else:
+                            course.append(course_text[:-3] + " " + course_text[-3:])
+                        desc_text = clean_up_text(tds[1].get_text()).replace("\u200b", "")
+                        desc.append(desc_text)
+                        fuzzy.append(fuzz.token_sort_ratio(str_input, desc_text))
+        dict_map = {"courses": course, "desc": desc, "fuzz": fuzzy}
+        df_courses = df(dict_map)
+        df_courses = df_courses.sort_values(by=["fuzz"], ascending=[False])
+        df_courses = df_courses.reset_index(drop=True)
+        df_courses = df_courses.drop_duplicates(subset=["courses"], keep="first")
+        df_courses = df_courses.reset_index(drop=True)
+        gen_html(str_input, df_courses)
+        return df_courses
     else:
-        df_final = pd.concat([df_job, df_desc])
-    df_final = df_final.drop_duplicates(subset='course', keep="first")
-    df_final = df_final.reset_index(drop=True)
-    gen_html(original, df_final)
+        print("job in jobs list")
+
+
+# def main_skills(job_selected):
+#     pass
+
+
+def main_career(job_selected):
+    nltk.data.path.append('./nltk_data/corpora/')
+    ret_all_courses(job_selected)
+    # original = job_selected
+    # job_selected = remove_and(job_selected)
+    # job_selected = job_selected.strip()
+    # df_abbs = map_code_df(job_selected)
+    # df_job = map_career_name(job_selected)
+    # df_desc = map_career_desc(job_selected)
+    # if len(df_abbs) > 0:
+    #     df_final = pd.concat([df_abbs, df_job, df_desc])
+    # else:
+    #     df_final = pd.concat([df_job, df_desc])
+    # df_final = df_final.drop_duplicates(subset='course', keep="first")
+    # df_final = df_final.reset_index(drop=True)
+    # gen_html(original, df_final)
     # BRILLIANT
     # MATCH WITH THE FIRST MATCH YOU HAVE WITH THE CAREER MATCH
 
 
-
-
-
+main_career("cryptographer")
