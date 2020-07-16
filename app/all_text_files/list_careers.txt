@@ -464,7 +464,7 @@ oral and maxillofacial surgeons* HEALTH AND THE HUMANITIES, CERTIFICATE
 orthodontists* HEALTH AND THE HUMANITIES, CERTIFICATE
 orthoptists* HEALTH AND THE HUMANITIES, CERTIFICATE
 orthotists and prosthetists* HEALTH AND THE HUMANITIES, CERTIFICATE
-pathologists* PLANT PATHOLOGY, B.S.* HEALTH AND THE HUMANITIES, CERTIFICATE
+pathologists* PLANT PATHOLOGY, B.S.
 pediatricians, general* HEALTH AND THE HUMANITIES, CERTIFICATE
 pharmacists* HEALTH AND THE HUMANITIES, CERTIFICATE
 pharmacy technicians* HEALTH AND THE HUMANITIES, CERTIFICATE
@@ -549,7 +549,7 @@ maintenance and repair workers, general* MECHANICAL ENGINEERING, B.S.
 maintenance workers, machinery* MECHANICAL ENGINEERING, B.S.
 manufactured building and mobile home installers* MECHANICAL ENGINEERING, B.S.
 mechanical door repairers* MECHANICAL ENGINEERING, B.S.
-medical equipment repairers* MECHANICAL ENGINEERING, B.S.
+medical equipment repairers* BIOMEDICAL ENGINEERING, B.S.
 millwrights* MECHANICAL ENGINEERING, B.S.
 mobile heavy equipment mechanics* MECHANICAL ENGINEERING, B.S.
 motorboat mechanics and service technicians* MECHANICAL ENGINEERING, B.S.
@@ -894,8 +894,8 @@ jewelers and precious stone and metal workers* CIVIL ENGINEERING, B.S.
 lathe and turning machine tool setters, operators, and tenders, metal and plastic* CIVIL ENGINEERING, B.S.
 laundry and dry-cleaning workers* CIVIL ENGINEERING, B.S.
 layout workers, metal and plastic* CIVIL ENGINEERING, B.S.
-machinists* CIVIL ENGINEERING, B.S.* ANIMAL SCIENCES, B.S.
-meat, poultry, and fish cutters and trimmers
+machinists* CIVIL ENGINEERING, B.S.
+meat, poultry, and fish cutters and trimmers* ANIMAL SCIENCES, B.S.
 medical appliance technicians* HEALTH AND THE HUMANITIES, CERTIFICATE
 metal workers and plastic workers, all other* CIVIL ENGINEERING, B.S.
 metal-refining furnace operators and tenders* CIVIL ENGINEERING, B.S.
@@ -1008,7 +1008,7 @@ gaming change persons and booth cashiers* GAME DESIGN, CERTIFICATE
 insurance sales agents* BUSINESS: RISK MANAGEMENT AND INSURANCE, BBA
 models* COMMUNICATION ARTS, B.S.
 parts salespersons* BUSINESS: MARKETING, BBA
-real estate brokersBUSINESS: REAL ESTATE AND URBAN LAND ECONOMICS, BBA
+real estate brokers* BUSINESS: REAL ESTATE AND URBAN LAND ECONOMICS, BBA
 real estate sales agents* BUSINESS: REAL ESTATE AND URBAN LAND ECONOMICS, BBA
 retail salespersons* BUSINESS: MARKETING, BBA
 sales agents, financial services* BUSINESS: MARKETING, BBA
