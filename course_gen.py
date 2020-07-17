@@ -2,6 +2,7 @@ import os
 from bs4 import BeautifulSoup
 import requests
 import csv
+import pandas
 from pandas import DataFrame as df
 from fuzzywuzzy import fuzz
 import nltk
@@ -35,11 +36,12 @@ def ret_csv_data():
     return header, data
 
 
-def ret_csv_codes():
-    csv_rows = process_csv(os.path.join(".", "app", "Curricular subject areas with code.csv"))
-    header = csv_rows[0]
-    data = csv_rows[1:]
-    return header, data
+#
+# def ret_csv_codes():
+#     csv_rows = process_csv(os.path.join(".", "app", "Curricular subject areas with code.csv"))
+#     header = csv_rows[0]
+#     data = csv_rows[1:]
+#     return header, data
 
 
 def ret_csv_links():
@@ -49,9 +51,9 @@ def ret_csv_links():
     return header, data
 
 
-tuple_codes = ret_csv_codes()
-codes_header = tuple_codes[0]
-codes_data = tuple_codes[1]
+# tuple_codes = ret_csv_codes()
+# codes_header = tuple_codes[0]
+# codes_data = tuple_codes[1]
 
 tuple_csv = ret_csv_data()
 csv_header = tuple_csv[0]
@@ -74,16 +76,17 @@ def cell(row_idx, col_name):
     return val
 
 
-def cell_code(row_idx, col_name):
-    col_idx = codes_header.index(col_name)
-    val = codes_data[row_idx][col_idx]
-    return val
+# def cell_code(row_idx, col_name):
+#     col_idx = codes_header.index(col_name)
+#     val = codes_data[row_idx][col_idx]
+#     return val
 
 
 def clean_up_text(text):
     unwanted_chars = ['\n', '\t', '\r', '\xa0', 'â\x80\x93']  # Edit this to include all characters you want to remove
     for char in unwanted_chars:
-        text = text.replace(char, '')
+        text = text.replace(char, ' ')
+
     return text
 
 
@@ -230,181 +233,201 @@ def list_all_combs(str_input):
     return all_comb
 
 
-def map_career_name(str_input):
-    all_comb = list_all_combs(str_input)
-    list_fuzz = []
-    prio = []
-    list_c = []
-    list_name = []
-    list_desc = []
-    for k in range(len(csv_data)):
-        lemma_name = ret_lemmatized(cell(k, "Name").lower())
-        for i in range(len(all_comb)):
-            for word in all_comb[i]:
-                flag = 0
-                if " " not in word:
-                    for each_word in lemma_name.split(" "):
-                        if word in each_word:
-                            flag = 1
-                            break
-                if flag == 1:
-                    break
-                for each_word in lemma_name.split(" "):
-                    if fuzz.token_sort_ratio(word, each_word) > 80:
-                        list_name.append(cell(k, "Name"))
-                        list_c.append(cell(k, "Code"))
-                        list_desc.append(cell(k, "Description"))
-                        list_fuzz.append(fuzz.token_sort_ratio(word, each_word))
-                        prio.append(len(all_comb) - i)
-                if word in lemma_name:
-                    list_name.append(cell(k, "Name"))
-                    list_c.append(cell(k, "Code"))
-                    list_desc.append(cell(k, "Description"))
-                    list_fuzz.append(fuzz.token_sort_ratio(word, lemma_name))
-                    prio.append(len(all_comb) - i)
-
-    dict_vals = {"course": list_c, "name": list_name, "description": list_desc, "prio": prio, "list_fuzz": list_fuzz}
-    df_job = df(dict_vals)
-    df_job = df_job.sort_values(by=["prio", "list_fuzz"], ascending=[True, False])
-    df_job = df_job.reset_index(drop=True)
-    return df_job
+def gen_group_desc(string, str_input):
+    num_words = len(str_input.split(" "))
+    array = string.split(" ")
+    print(printCombination(array, len(array), num_words))
 
 
-def map_career_desc(str_input):
-    list_c = []
-    list_name = []
-    list_desc = []
-    list_fuzz = []
-    prio = []
-    skip_val = 0
-    list_words = str_input.lower().split(" ")
-    for i in range(len(csv_data)):
-        lemma_name = ret_lemmatized(cell(i, "Description").lower())
-        if len(list_words) > 1:
-            if fuzz.token_sort_ratio(lemma_name.lower(), str_input) < 15:
-                skip_val += 1
-                continue
-        list_lemma = lemma_name.split(" ")
-        count = 0
-        for every_desc in list_lemma:
-            for each in list_words:
-                if fuzz.token_sort_ratio(every_desc, each.lower()) > 80:
-                    count += 1
-            for each in list_words:
-                if fuzz.token_sort_ratio(every_desc.lower(), each.lower()) > 80:
-                    list_name.append(cell(i, "Name"))
-                    list_c.append(cell(i, "Code"))
-                    list_desc.append(cell(i, "Description"))
-                    prio.append(count)
-                    list_fuzz.append(fuzz.token_sort_ratio(every_desc.lower(), each.lower()))
-
-    dict_vals = {"course": list_c, "name": list_name, "description": list_desc, "prio": prio, "list_fuzz": list_fuzz}
-    df_desc = df(dict_vals)
-    df_desc = df_desc.sort_values(by=["prio", "list_fuzz"], ascending=[False, False])
-    df_desc = df_desc.reset_index(drop=True)
-    return df_desc
-
-
-def map_career_codes(str_input):
-    list_area = []
-    list_abb = []
-    list_fuzz = []
-    prio = []
-    list_words = str_input.lower().split(" ")
-    for i in range(len(codes_data)):
-        lemma_name = ret_lemmatized(cell_code(i, "subject area").lower())
-
-        if len(list_words) > 1:
-            if fuzz.token_sort_ratio(lemma_name.lower(), str_input) < 15:
-                continue
-        list_lemma = lemma_name.split(" ")
-        count = 0
-        for every_code in list_lemma:
-            for each in list_words:
-                if fuzz.token_sort_ratio(every_code, each.lower()) > 80:
-                    count += 1
-            for each in list_words:
-                if fuzz.token_sort_ratio(every_code.lower(), each.lower()) > 80:
-                    list_abb.append(cell_code(i, "abbreviation"))
-                    list_area.append(cell_code(i, "subject area"))
-                    prio.append(count)
-                    list_fuzz.append(fuzz.token_sort_ratio(every_code.lower(), each.lower()))
-
-    dict_vals = {"abb": list_abb, "sub area": list_area, "prio": prio, "list_fuzz": list_fuzz}
-    df_codes = df(dict_vals)
-    df_codes = df_codes.sort_values(by=["prio", "list_fuzz"], ascending=[False, False])
-    df_codes = df_codes.reset_index(drop=True)
-    return df_codes
+# def map_career_name(str_input):
+#     all_comb = list_all_combs(str_input)
+#     list_fuzz = []
+#     prio = []
+#     list_c = []
+#     list_name = []
+#     list_desc = []
+#     for k in range(len(csv_data)):
+#         lemma_name = ret_lemmatized(cell(k, "Name").lower())
+#         for i in range(len(all_comb)):
+#             for word in all_comb[i]:
+#                 flag = 0
+#                 if " " not in word:
+#                     for each_word in lemma_name.split(" "):
+#                         if word in each_word:
+#                             flag = 1
+#                             break
+#                 if flag == 1:
+#                     break
+#                 for each_word in lemma_name.split(" "):
+#                     if fuzz.token_sort_ratio(word, each_word) > 80:
+#                         list_name.append(cell(k, "Name"))
+#                         list_c.append(cell(k, "Code"))
+#                         list_desc.append(cell(k, "Description"))
+#                         list_fuzz.append(fuzz.token_sort_ratio(word, each_word))
+#                         prio.append(len(all_comb) - i)
+#                 if word in lemma_name:
+#                     list_name.append(cell(k, "Name"))
+#                     list_c.append(cell(k, "Code"))
+#                     list_desc.append(cell(k, "Description"))
+#                     list_fuzz.append(fuzz.token_sort_ratio(word, lemma_name))
+#                     prio.append(len(all_comb) - i)
+#
+#     dict_vals = {"course": list_c, "name": list_name, "description": list_desc, "prio": prio, "list_fuzz": list_fuzz}
+#     df_job = df(dict_vals)
+#     df_job = df_job.sort_values(by=["prio", "list_fuzz"], ascending=[True, False])
+#     df_job = df_job.reset_index(drop=True)
+#     return df_job
 
 
-def map_code_df(str_input):
-    list_c = []
-    list_name = []
-    list_desc = []
-    prio = []
-    df_codes = map_career_codes(str_input)
-    main_codes = []
-    if len(df_codes) > 0:
-        for i in range(len(df_codes)):
-            main_codes.append(df_codes.at[i, "abb"])
-    if len(main_codes) > 0:
-        count = 0
-        for i in range(len(csv_data)):
-            for j in range(len(main_codes)):
-                if main_codes[j] in cell(i, "Code"):
-                    list_name.append(cell(i, "Name"))
-                    list_c.append(cell(i, "Code"))
-                    list_desc.append(cell(i, "Description"))
-                    prio.append(count)
-                    count += 1
-                    break
+# def map_career_desc(str_input):
+#     list_c = []
+#     list_name = []
+#     list_desc = []
+#     list_fuzz = []
+#     prio = []
+#     skip_val = 0
+#     list_words = str_input.lower().split(" ")
+#     for i in range(len(csv_data)):
+#         lemma_name = ret_lemmatized(cell(i, "Description").lower())
+#         if len(list_words) > 1:
+#             if fuzz.token_sort_ratio(lemma_name.lower(), str_input) < 15:
+#                 skip_val += 1
+#                 continue
+#         list_lemma = lemma_name.split(" ")
+#         count = 0
+#         for every_desc in list_lemma:
+#             for each in list_words:
+#                 if fuzz.token_sort_ratio(every_desc, each.lower()) > 80:
+#                     count += 1
+#             for each in list_words:
+#                 if fuzz.token_sort_ratio(every_desc.lower(), each.lower()) > 80:
+#                     list_name.append(cell(i, "Name"))
+#                     list_c.append(cell(i, "Code"))
+#                     list_desc.append(cell(i, "Description"))
+#                     prio.append(count)
+#                     list_fuzz.append(fuzz.token_sort_ratio(every_desc.lower(), each.lower()))
+#
+#     dict_vals = {"course": list_c, "name": list_name, "description": list_desc, "prio": prio, "list_fuzz": list_fuzz}
+#     df_desc = df(dict_vals)
+#     df_desc = df_desc.sort_values(by=["prio", "list_fuzz"], ascending=[False, False])
+#     df_desc = df_desc.reset_index(drop=True)
+#     return df_desc
 
-    dict_vals = {"course": list_c, "name": list_name, "description": list_desc, "prio": prio}
-    df_abbs = df(dict_vals)
-    df_abbs = df_abbs.sort_values(by=["prio"], ascending=[True])
-    df_abbs = df_abbs.reset_index(drop=True)
-    return df_abbs
+
+# def map_career_codes(str_input):
+#     list_area = []
+#     list_abb = []
+#     list_fuzz = []
+#     prio = []
+#     list_words = str_input.lower().split(" ")
+#     for i in range(len(codes_data)):
+#         lemma_name = ret_lemmatized(cell_code(i, "subject area").lower())
+#
+#         if len(list_words) > 1:
+#             if fuzz.token_sort_ratio(lemma_name.lower(), str_input) < 15:
+#                 continue
+#         list_lemma = lemma_name.split(" ")
+#         count = 0
+#         for every_code in list_lemma:
+#             for each in list_words:
+#                 if fuzz.token_sort_ratio(every_code, each.lower()) > 80:
+#                     count += 1
+#             for each in list_words:
+#                 if fuzz.token_sort_ratio(every_code.lower(), each.lower()) > 80:
+#                     list_abb.append(cell_code(i, "abbreviation"))
+#                     list_area.append(cell_code(i, "subject area"))
+#                     prio.append(count)
+#                     list_fuzz.append(fuzz.token_sort_ratio(every_code.lower(), each.lower()))
+#
+#     dict_vals = {"abb": list_abb, "sub area": list_area, "prio": prio, "list_fuzz": list_fuzz}
+#     df_codes = df(dict_vals)
+#     df_codes = df_codes.sort_values(by=["prio", "list_fuzz"], ascending=[False, False])
+#     df_codes = df_codes.reset_index(drop=True)
+#     return df_codes
+#
+#
+# def map_code_df(str_input):
+#     list_c = []
+#     list_name = []
+#     list_desc = []
+#     prio = []
+#     df_codes = map_career_codes(str_input)
+#     main_codes = []
+#     if len(df_codes) > 0:
+#         for i in range(len(df_codes)):
+#             main_codes.append(df_codes.at[i, "abb"])
+#     if len(main_codes) > 0:
+#         count = 0
+#         for i in range(len(csv_data)):
+#             for j in range(len(main_codes)):
+#                 if main_codes[j] in cell(i, "Code"):
+#                     list_name.append(cell(i, "Name"))
+#                     list_c.append(cell(i, "Code"))
+#                     list_desc.append(cell(i, "Description"))
+#                     prio.append(count)
+#                     count += 1
+#                     break
+#
+#     dict_vals = {"course": list_c, "name": list_name, "description": list_desc, "prio": prio}
+#     df_abbs = df(dict_vals)
+#     df_abbs = df_abbs.sort_values(by=["prio"], ascending=[True])
+#     df_abbs = df_abbs.reset_index(drop=True)
+#     return df_abbs
 
 
 def gen_html(original, df_job):
     # don't forget to add description
     # still gotta do skills
-    # start = "<html><body><table><tr><th>course</th><th>name</th><th>description</th></tr>"
+    start = """<html>
+                    <body>
+                        <table>
+                            <tr>
+                                <th>course</th>
+                                <th>name</th>
+                                <th>description</th>
+                            </tr>"""
+    for i in range(len(df_job)):
+        start += "<tr>"
+        start += "<td>" + df_job.at[i, 'course'] + "    " + "</td>" + "<td>" + df_job.at[i, 'name'] + "    " + "</td>"
+        start += "<td>" + df_job.at[i, 'description'] + "</td>" + "</tr>"
+
+    # start = ""
+    # start += """<html>
+    #                 <body>
+    #                     <table>
+    #                         <tr>
+    #                             <th>course</th>
+    #                             <th>name</th>
+    #                         </tr>"""
     # for i in range(len(df_job)):
     #     start += "<tr>"
-    #     start += "<td>" + df_job.at[i, 'course'] + "    " + "</td>" + "<td>" + df_job.at[i, 'name'] + "    " + "</td>"
-    #     start += "<td>" + df_job.at[i, 'description'] + "</td>" + "</tr>"
+    #     start += "<td>" + df_job.at[i, 'courses'] + "    " + "</td>"
+    #     start += "<td>" + df_job.at[i, 'desc'] + "</td>" + "</tr>"
     #     if i == 15:
     #         break
 
-    start = "<html><body><table><tr><th>course</th><th>name</th></tr>"
-    for i in range(len(df_job)):
-        start += "<tr>"
-        start += "<td>" + df_job.at[i, 'courses'] + "    " + "</td>"
-        start += "<td>" + df_job.at[i, 'desc'] + "</td>" + "</tr>"
-        if i == 15:
-            break
-
-    start += "</table></body></html>"
+    start += """        </table>
+                    </body>
+                </html>"""
     f = open(os.path.join(".", "app", "templates", original + "op.html"), "w", encoding="utf-8")
     f.write(start)
     f.close()
 
 
-def remove_and(str_input):
-    words = str_input.split(" ")
-    new_word = ""
-    for each in words:
-        if each[-4:] == "ists":
-            new_word += each[:-4] + " "
-        else:
-            new_word += each + " "
-    str_input = new_word
-
-    if "and" in words:
-        split = str_input.split("and")
-        str_input = split[0].strip() + " " + split[1].strip()
-    return str_input
+# def remove_and(str_input):
+#     words = str_input.split(" ")
+#     new_word = ""
+#     for each in words:
+#         if each[-4:] == "ists":
+#             new_word += each[:-4] + " "
+#         else:
+#             new_word += each + " "
+#     str_input = new_word
+#
+#     if "and" in words:
+#         split = str_input.split("and")
+#         str_input = split[0].strip() + " " + split[1].strip()
+#     return str_input
 
 
 def ret_all_courses(str_input):
@@ -425,6 +448,7 @@ def ret_all_courses(str_input):
     if str_input in jobs:
         course = []
         desc = []
+        list_desc = []
         fuzzy = []
         link = ""
         index = jobs.index(str_input)
@@ -453,16 +477,82 @@ def ret_all_courses(str_input):
                         desc_text = clean_up_text(tds[1].get_text()).replace("\u200b", "")
                         desc.append(desc_text)
                         fuzzy.append(fuzz.token_sort_ratio(str_input, desc_text))
-        dict_map = {"courses": course, "desc": desc, "fuzz": fuzzy}
-        df_courses = df(dict_map)
+
+        for i in range(len(desc)):
+            flag = 1
+            for j in range(len(csv_data)):
+                if cell(j, "Name").lower() in desc[i].lower():
+                    flag = 0
+                    list_desc.append(cell(j, "Description"))
+                    break
+            if flag == 1:
+                list_desc.append("no desc found")
+        dict_vals = {"course": course, "name": desc, "description": list_desc, "fuzz": fuzzy}
+        df_courses = df(dict_vals)
         df_courses = df_courses.sort_values(by=["fuzz"], ascending=[False])
         df_courses = df_courses.reset_index(drop=True)
-        df_courses = df_courses.drop_duplicates(subset=["courses"], keep="first")
+        df_courses = df_courses.drop_duplicates(subset=["course"], keep="first")
         df_courses = df_courses.reset_index(drop=True)
-        gen_html(str_input, df_courses)
+        df_courses = df_courses[df_courses['fuzz'] > 50]
         return df_courses
     else:
-        print("job in jobs list")
+        print("job not in jobs list")
+
+
+def ret_main_codes(df_courses):
+    codes = []
+    for i in range(len(df_courses)):
+        text = df_courses.at[i, "course"].strip()
+        if "&" in text or "/" in text:
+            if "&" in text:
+                parts = text.split("&")
+                for each in parts:
+                    if each.strip()[-3:].isnumeric():
+                        codes.append(each.strip()[:-3].strip())
+                    else:
+                        codes.append(each.strip())
+            if "/" in text:
+                sections = text.split("/")
+                for every in sections:
+                    codes.append(every.strip())
+        elif text[-3:].isnumeric():
+            codes.append(text[:-3].strip())
+    for one in codes:
+        if one[-3:].isnumeric():
+            codes.append(one[:-3].strip())
+            codes.remove(one)
+    set_c = set(codes)
+    codes = list(set_c)
+    return codes
+
+
+def search_name_codes(str_input, codes):
+    list_c = []
+    list_name = []
+    list_desc = []
+    list_fuzz = []
+    prio = []
+
+    for each in codes:
+        for i in range(len(csv_data)):
+            count = 0
+            if each in cell(i, "Code"):
+                for every in str_input.split(" "):
+                    for one in cell(i, "Description").split(" "):
+                        if fuzz.token_sort_ratio(one, every) > 85:
+                            count += 1
+            if count > 0:
+                list_c.append(cell(i, "Code"))
+                list_name.append(cell(i, "Name"))
+                list_desc.append(cell(i, "Description"))
+                list_fuzz.append(fuzz.token_sort_ratio(cell(i, "Description"), str_input))
+                prio.append(count)
+
+    dict_vals = {"course": list_c, "name": list_name, "description": list_desc, "fuzz": list_fuzz, "prio": prio}
+    df_script = df(dict_vals)
+    df_script = df_script.sort_values(by=["prio", "fuzz"], ascending=[False, False])
+    df_script = df_script.reset_index(drop=True)
+    return df_script
 
 
 # def main_skills(job_selected):
@@ -471,7 +561,13 @@ def ret_all_courses(str_input):
 
 def main_career(job_selected):
     nltk.data.path.append('./nltk_data/corpora/')
-    ret_all_courses(job_selected)
+    df_courses = ret_all_courses(job_selected)
+    codes = ret_main_codes(df_courses)
+    df_script = search_name_codes(job_selected, codes)
+    df_final = pandas.concat([df_courses, df_script])
+    df_final = df_final.drop_duplicates(subset='course', keep="first")
+    df_final = df_final.reset_index(drop=True)
+    gen_html(job_selected, df_final)
     # original = job_selected
     # job_selected = remove_and(job_selected)
     # job_selected = job_selected.strip()
@@ -489,4 +585,4 @@ def main_career(job_selected):
     # MATCH WITH THE FIRST MATCH YOU HAVE WITH THE CAREER MATCH
 
 
-main_career("cryptographer")
+main_career("computer hardware engineers")
