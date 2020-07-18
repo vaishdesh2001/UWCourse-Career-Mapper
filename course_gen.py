@@ -16,7 +16,7 @@ def download(filename, url):
     resp.raise_for_status()
     if ".html" in filename:
         doc = BeautifulSoup(resp.text, "html.parser")
-        f = open(os.path.join(".", "app", "career_files", filename.lower()), "w", encoding="utf-8")
+        f = open(os.path.join("app", "career_files", filename.lower()), "w", encoding="utf-8")
         f.write(str(doc))
         f.close()
 
@@ -30,7 +30,7 @@ def process_csv(filename):
 
 
 def ret_csv_data():
-    csv_rows = process_csv(os.path.join(".", "app", "all_data.csv"))
+    csv_rows = process_csv(os.path.join("app", "all_data.csv"))
     header = csv_rows[0]
     data = csv_rows[1:]
     return header, data
@@ -38,14 +38,14 @@ def ret_csv_data():
 
 #
 # def ret_csv_codes():
-#     csv_rows = process_csv(os.path.join(".", "app", "Curricular subject areas with code.csv"))
+#     csv_rows = process_csv(os.path.join(app", "Curricular subject areas with code.csv"))
 #     header = csv_rows[0]
 #     data = csv_rows[1:]
 #     return header, data
 
 
 def ret_csv_links():
-    csv_rows = process_csv(os.path.join(".", "app", "majors_links.csv"))
+    csv_rows = process_csv(os.path.join("app", "majors_links.csv"))
     header = csv_rows[0]
     data = csv_rows[1:]
     return header, data
@@ -115,7 +115,7 @@ def ret_skill_list(job_selected):
     else:
         url_job_name = job_selected
     download("skills" + url_job_name + ".html", "https://www.mymajors.com/career/" + url_job_name + "/skills/")
-    f = open(os.path.join("app", "career_files", "skills" + url_job_name + ".html"), encoding="utf-8")
+    f = open(os.path.join("", "app", "career_files", "skills" + url_job_name + ".html"), encoding="utf-8")
     html_text = f.read()
     f.close()
     soup = BeautifulSoup(html_text, "html.parser")
@@ -407,7 +407,7 @@ def gen_html(original, df_job, df_cc):
     start += """        
                     </body>
                 </html>"""
-    f = open(os.path.join(".", "app", "templates", original + "op.html"), "w", encoding="utf-8")
+    f = open(os.path.join("", "app", "templates", original + "op.html"), "w", encoding="utf-8")
     f.write(start)
     f.close()
 
@@ -439,7 +439,7 @@ def get_desc_text(course_code):
 
 
 def ret_all_courses(str_input):
-    f = open(os.path.join(".", "app", "all_text_files", "list_careers.txt"), "r", encoding="utf-8")
+    f = open(os.path.join("", "app", "all_text_files", "list_careers.txt"), "r", encoding="utf-8")
     all_text = f.read()
     f.close()
     list_lines = all_text.split("\n")
@@ -466,7 +466,7 @@ def ret_all_courses(str_input):
                 link = cell_link(i, "links")
                 break
         download(str_input + ".html", link + "#requirementstext")
-        f = open(os.path.join(".", "app", "career_files", str_input + ".html"), encoding="utf-8")
+        f = open(os.path.join("", "app", "career_files", str_input + ".html"), encoding="utf-8")
         h_text = f.read()
         f.close()
         soup = BeautifulSoup(h_text, "html.parser")
@@ -622,4 +622,4 @@ def main_career(job_selected):
     gen_html(job_selected, df_final, df_cc)
 
 
-main_career("agricultural engineers")
+main_career("cryptographer")
