@@ -115,7 +115,7 @@ def ret_skill_list(job_selected):
     else:
         url_job_name = job_selected
     download("skills" + url_job_name + ".html", "https://www.mymajors.com/career/" + url_job_name + "/skills/")
-    f = open(os.path.join("career_files", "skills" + url_job_name + ".html"), encoding="utf-8")
+    f = open(os.path.join("app", "career_files", "skills" + url_job_name + ".html"), encoding="utf-8")
     html_text = f.read()
     f.close()
     soup = BeautifulSoup(html_text, "html.parser")
@@ -236,7 +236,6 @@ def list_all_combs(str_input):
 def gen_group_desc(string, str_input):
     num_words = len(str_input.split(" "))
     array = string.split(" ")
-    print(printCombination(array, len(array), num_words))
 
 
 # def map_career_name(str_input):
@@ -375,11 +374,13 @@ def gen_group_desc(string, str_input):
 #     return df_abbs
 
 
-def gen_html(original, df_job):
+# learn to jump within a page
+def gen_html(original, df_job, df_cc):
     # don't forget to add description
     # still gotta do skills
     start = """<html>
                     <body>
+                        <h1>Click <a href="#skills">here</a> to get skills-related courses</h1>
                         <table>
                             <tr>
                                 <th>course</th>
@@ -391,22 +392,19 @@ def gen_html(original, df_job):
         start += "<td>" + df_job.at[i, 'course'] + "    " + "</td>" + "<td>" + df_job.at[i, 'name'] + "    " + "</td>"
         start += "<td>" + df_job.at[i, 'description'] + "</td>" + "</tr>"
 
-    # start = ""
-    # start += """<html>
-    #                 <body>
-    #                     <table>
-    #                         <tr>
-    #                             <th>course</th>
-    #                             <th>name</th>
-    #                         </tr>"""
-    # for i in range(len(df_job)):
-    #     start += "<tr>"
-    #     start += "<td>" + df_job.at[i, 'courses'] + "    " + "</td>"
-    #     start += "<td>" + df_job.at[i, 'desc'] + "</td>" + "</tr>"
-    #     if i == 15:
-    #         break
+    start += '</table> <a name="skills"></a>'
+    start += """<table>
+                    <tr>
+                        <th>course</th>
+                        <th>skills</th>
+                    </tr>"""
+    for i in range(len(df_cc)):
+        start += "<tr>"
+        start += "<td>" + df_cc.at[i, 'Course'] + "    " + "</td>"
+        start += "<td>" + df_cc.at[i, 'Skill'] + "</td>" + "</tr>"
+    start += "</table>"
 
-    start += """        </table>
+    start += """        
                     </body>
                 </html>"""
     f = open(os.path.join(".", "app", "templates", original + "op.html"), "w", encoding="utf-8")
@@ -428,6 +426,16 @@ def gen_html(original, df_job):
 #         split = str_input.split("and")
 #         str_input = split[0].strip() + " " + split[1].strip()
 #     return str_input
+
+
+def get_desc_text(course_code):
+    if "/" in course_code:
+        course_code = course_code.split("/")[-1]
+    if course_code[-5:-3] == "  ":
+        course_code = course_code[:-4] + course_code[-3:]
+    for i in range(len(csv_data)):
+        if course_code.lower() in cell(i, "Code").lower():
+            return cell(i, "Name")
 
 
 def ret_all_courses(str_input):
@@ -462,22 +470,19 @@ def ret_all_courses(str_input):
         h_text = f.read()
         f.close()
         soup = BeautifulSoup(h_text, "html.parser")
-        tables = soup.find_all("table", {'class': 'sc_courselist'})
-        for each in tables:
-            all_tr = each.find_all("tr")
-            for every in all_tr:
-                tds = every.find_all("td")
-                if len(tds) >= 2:
-                    course_text = clean_up_text(tds[0].get_text()).replace("\u200b", "")
-                    if course_text[-3:].isnumeric():
-                        if course_text[:2] == "or":
-                            course.append(course_text[2:-3] + " " + course_text[-3:])
-                        else:
-                            course.append(course_text[:-3] + " " + course_text[-3:])
-                        desc_text = clean_up_text(tds[1].get_text()).replace("\u200b", "")
-                        desc.append(desc_text)
-                        fuzzy.append(fuzz.token_sort_ratio(str_input, desc_text))
-
+        all_a = soup.find_all("a", {'class': "bubblelink code"})
+        for each in all_a:
+            course_text = clean_up_text(each.get_text()).replace("\u200b", "")
+            if course_text[-3:].isnumeric():
+                if course_text[:2] == "or":
+                    course.append(course_text[2:-3] + " " + course_text[-3:])
+                else:
+                    course.append(course_text[:-3] + " " + course_text[-3:])
+                desc_text = get_desc_text(course_text)
+                if desc_text is None:
+                    print(course_text, "None!")
+                desc.append(desc_text)
+                fuzzy.append(fuzz.token_sort_ratio(str_input, desc_text))
         for i in range(len(desc)):
             flag = 1
             for j in range(len(csv_data)):
@@ -493,8 +498,7 @@ def ret_all_courses(str_input):
         df_courses = df_courses.reset_index(drop=True)
         df_courses = df_courses.drop_duplicates(subset=["course"], keep="first")
         df_courses = df_courses.reset_index(drop=True)
-        df_courses = df_courses[df_courses['fuzz'] > 50]
-        return df_courses
+        return df_courses[df_courses["fuzz"]>30]
     else:
         print("job not in jobs list")
 
@@ -555,8 +559,55 @@ def search_name_codes(str_input, codes):
     return df_script
 
 
-# def main_skills(job_selected):
-#     pass
+def map_skill_career(str_input, codes):
+    list_hits = []
+    list_common = ["mathematics", "speaking", "writing", "critical thinking", "reading comprehension",
+                   "english language", "time management", "complex problem solving"]
+    list_codes = []
+    df_skills = foi_skills(ret_skill_list(str_input))
+    for j in range(len(df_skills)):
+        for i in range(len(csv_data)):
+            if cell(i, "Code")[:-4] in codes:
+                c_name = ret_lemmatized(cell(i, "Name").lower())
+                c_desc = ret_lemmatized(cell(i, "Description").lower())
+                each = df_skills.at[j, "skill name"]
+                if each.lower() in list_common:
+                    continue
+                each_lemma = ret_lemmatized(each.lower())
+                each_list = each_lemma.split(" ")
+                count_name = 0
+                count_desc = 0
+                for k in range(len(each_list)):
+                    if each_list[k].lower() in c_name:
+                        count_name += 1
+                for k in range(len(each_list)):
+                    if each_list[k].lower() in c_desc:
+                        count_desc += 1
+
+                sum_count = count_desc + count_name
+                if sum_count == 0:
+                    continue
+                if len(each_list) > 1 and sum_count == 1:
+                    continue
+                list_hits.append("#" + each)
+                list_hits.append(cell(i, "Code") + " " + cell(i, "Name"))
+                list_codes.append(count_name + count_desc)
+    only_courses = []
+    skills_mapped = []
+    foi_skill_list = []
+    for i in range(len(list_hits)):
+        if i % 2 == 1:
+            only_courses.append(list_hits[i])
+        else:
+            skills_mapped.append(list_hits[i][1:])
+
+    for skill in skills_mapped:
+        ix = df_skills[df_skills["skill name"] == skill].index.values
+        foi_skill_list.append(df_skills.at[int(ix[0]), "factor of importance"])
+    dict_val = {"Course": only_courses, "Priority Val": list_codes, "Skill": skills_mapped, "foi": foi_skill_list}
+    df_cc = df(dict_val)
+    df_cc = df_cc.sort_values("foi", ascending=True)
+    return df_cc
 
 
 def main_career(job_selected):
@@ -567,22 +618,8 @@ def main_career(job_selected):
     df_final = pandas.concat([df_courses, df_script])
     df_final = df_final.drop_duplicates(subset='course', keep="first")
     df_final = df_final.reset_index(drop=True)
-    gen_html(job_selected, df_final)
-    # original = job_selected
-    # job_selected = remove_and(job_selected)
-    # job_selected = job_selected.strip()
-    # df_abbs = map_code_df(job_selected)
-    # df_job = map_career_name(job_selected)
-    # df_desc = map_career_desc(job_selected)
-    # if len(df_abbs) > 0:
-    #     df_final = pd.concat([df_abbs, df_job, df_desc])
-    # else:
-    #     df_final = pd.concat([df_job, df_desc])
-    # df_final = df_final.drop_duplicates(subset='course', keep="first")
-    # df_final = df_final.reset_index(drop=True)
-    # gen_html(original, df_final)
-    # BRILLIANT
-    # MATCH WITH THE FIRST MATCH YOU HAVE WITH THE CAREER MATCH
+    df_cc = map_skill_career(job_selected, codes)
+    gen_html(job_selected, df_final, df_cc)
 
 
-main_career("computer hardware engineers")
+main_career("agricultural engineers")
