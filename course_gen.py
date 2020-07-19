@@ -51,10 +51,6 @@ def ret_csv_links():
     return header, data
 
 
-# tuple_codes = ret_csv_codes()
-# codes_header = tuple_codes[0]
-# codes_data = tuple_codes[1]
-
 tuple_csv = ret_csv_data()
 csv_header = tuple_csv[0]
 csv_data = tuple_csv[1]
@@ -378,35 +374,60 @@ def gen_group_desc(string, str_input):
 def gen_html(original, df_job, df_cc):
     # don't forget to add description
     # still gotta do skills
-    start = """<html>
-                    <body>
-                        <h1>Click <a href="#skills">here</a> to get skills-related courses</h1>
-                        <table>
-                            <tr>
-                                <th>course</th>
-                                <th>name</th>
-                                <th>description</th>
-                            </tr>"""
+    start = ""
+    f = open("allhtmlcode.txt", encoding = "utf-8")
+    start += f.read()
+    f.close()
+    start += """
+    <div class="limiter">
+    <div class="container-table100">
+        <div class="wrap-table100">
+            <div class="table100 ver1 m-b-110">
+                <div class="table100-head">
+                    <table>
+                        <thead>
+                        <tr class="row100 head">
+                            <th class="cell100 column1">Course Code</th>
+                            <th class="cell100 column2">Course Name</th>
+                            <th class="cell100 column3">Course Description</th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+
+                <div class="table100-body js-pscroll">
+                <table>
+    """
     for i in range(len(df_job)):
         start += "<tr>"
-        start += "<td>" + df_job.at[i, 'course'] + "    " + "</td>" + "<td>" + df_job.at[i, 'name'] + "    " + "</td>"
-        start += "<td>" + df_job.at[i, 'description'] + "</td>" + "</tr>"
+        start += "<td class='cell100 column1'>" + df_job.at[i, 'course'] + "    " + "</td>" + "<td class='cell100 " \
+                                                                                              "column2'>" + \
+                 df_job.at[i, 'name'] + "    " + "</td> "
+        start += "<td class='cell100 column3'>" + df_job.at[i, 'description'] + "</td>" + "</tr>"
 
-    start += '</table> <a name="skills"></a>'
-    start += """<table>
-                    <tr>
-                        <th>course</th>
-                        <th>skills</th>
-                    </tr>"""
-    for i in range(len(df_cc)):
-        start += "<tr>"
-        start += "<td>" + df_cc.at[i, 'Course'] + "    " + "</td>"
-        start += "<td>" + df_cc.at[i, 'Skill'] + "</td>" + "</tr>"
-    start += "</table>"
+    start += """</table>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>"""
 
-    start += """        
-                    </body>
-                </html>"""
+    # start += """<table>
+    #                 <tr>
+    #                     <th>course</th>
+    #                     <th>technical skills</th>
+    #                 </tr>"""
+    # for i in range(len(df_cc)):
+    #     start += "<tr>"
+    #     start += "<td>" + df_cc.at[i, 'Course'] + "    " + "</td>"
+    #     start += "<td>" + df_cc.at[i, 'Skill'] + "</td>" + "</tr>"
+    # start += "</table>"
+    #
+    # start += """
+    #                 </body>
+    #             </html>"""
     f = open(os.path.join("", "app", "templates", original + "op.html"), "w", encoding="utf-8")
     f.write(start)
     f.close()
@@ -473,14 +494,15 @@ def ret_all_courses(str_input):
         all_a = soup.find_all("a", {'class': "bubblelink code"})
         for each in all_a:
             course_text = clean_up_text(each.get_text()).replace("\u200b", "")
+            desc_text = get_desc_text(course_text)
+            if desc_text is None:
+                print(course_text, "None!")
+                continue
             if course_text[-3:].isnumeric():
                 if course_text[:2] == "or":
                     course.append(course_text[2:-3] + " " + course_text[-3:])
                 else:
                     course.append(course_text[:-3] + " " + course_text[-3:])
-                desc_text = get_desc_text(course_text)
-                if desc_text is None:
-                    print(course_text, "None!")
                 desc.append(desc_text)
                 fuzzy.append(fuzz.token_sort_ratio(str_input, desc_text))
         for i in range(len(desc)):
@@ -620,6 +642,3 @@ def main_career(job_selected):
     df_final = df_final.reset_index(drop=True)
     df_cc = map_skill_career(job_selected, codes)
     gen_html(job_selected, df_final, df_cc)
-
-
-main_career("cryptographer")
