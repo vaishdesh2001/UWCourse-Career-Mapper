@@ -5,8 +5,11 @@ import csv
 import pandas
 from pandas import DataFrame as df
 from fuzzywuzzy import fuzz
-import nltk
-from nltk.stem import WordNetLemmatizer
+import time
+
+
+# import nltk
+# from nltk.stem import WordNetLemmatizer
 
 
 def download(filename, url):
@@ -87,17 +90,29 @@ def clean_up_text(text):
 
 
 def url_gen(str_input):
-    base_url = "https://www.mymajors.com/search/?q="
-
-    if " " in str_input:
-        parts = str_input.split(" ")
-        for each in parts:
-            if each == parts[-1]:
-                base_url += each
-            else:
-                base_url += each + "+"
+    base_url = "https://www.mymajors.com/career/"
+    add = ""
+    new = ""
+    if "," in str_input:
+        parts = str_input.split(",")
+        for one in parts:
+            add += one
     else:
-        base_url += str_input
+        add = str_input
+    spaces = add.split(" ")
+    for part in spaces:
+        new += part + "-"
+    new = new[:-1]
+    base_url += new + "/"
+    # if " " in str_input:
+    #     parts = str_input.split(" ")
+    #     for each in parts:
+    #         if each == parts[-1]:
+    #             base_url += each
+    #         else:
+    #             base_url += each + "+"
+    # else:
+    #     base_url += str_input
     return base_url
 
 
@@ -110,7 +125,7 @@ def ret_skill_list(job_selected):
             url_job_name += each + "-"
     else:
         url_job_name = job_selected
-    download("skills" + url_job_name + ".html", "https://www.mymajors.com/career/" + url_job_name + "/skills/")
+    download("skills" + url_job_name + ".html", url_gen(job_selected) + "skills/")
     f = open(os.path.join("", "app", "career_files", "skills" + url_job_name + ".html"), encoding="utf-8")
     html_text = f.read()
     f.close()
@@ -151,23 +166,23 @@ def foi_skills(skills):
     return df_skills
 
 
-def ret_lemmatized(in_string):
-    lemmatizer = WordNetLemmatizer()
-    final = ""
-    if " " in in_string.lower():
-        list_words = in_string.split(" ")
-        for i in range(len(list_words)):
-            lemma = lemmatizer.lemmatize(list_words[i])
-            if lemma.strip()[-3:] == "ing":
-                lemma = list_words[i][:-3]
-            final += lemma + " "
-        final = final.strip()
-        return final
-    else:
-        final = lemmatizer.lemmatize(in_string)
-        if final[-3:] == "ing":
-            final = final[:-3]
-        return final
+# def ret_lemmatized(in_string):
+#     lemmatizer = WordNetLemmatizer()
+#     final = ""
+#     if " " in in_string.lower():
+#         list_words = in_string.split(" ")
+#         for i in range(len(list_words)):
+#             lemma = lemmatizer.lemmatize(list_words[i])
+#             if lemma.strip()[-3:] == "ing":
+#                 lemma = list_words[i][:-3]
+#             final += lemma + " "
+#         final = final.strip()
+#         return final
+#     else:
+#         final = lemmatizer.lemmatize(in_string)
+#         if final[-3:] == "ing":
+#             final = final[:-3]
+#         return final
 
 
 def extract_code(cou):
@@ -222,11 +237,11 @@ def grouper(str_input, list_ret):
     return grouped
 
 
-def list_all_combs(str_input):
-    job_lemma = ret_lemmatized(str_input)
-    list_ret = return_groups(job_lemma)
-    all_comb = grouper(job_lemma, list_ret)
-    return all_comb
+# def list_all_combs(str_input):
+#     job_lemma = ret_lemmatized(str_input)
+#     list_ret = return_groups(job_lemma)
+#     all_comb = grouper(job_lemma, list_ret)
+#     return all_comb
 
 
 def gen_group_desc(string, str_input):
@@ -375,7 +390,7 @@ def gen_html(original, df_job, df_cc):
     # don't forget to add description
     # still gotta do skills
     start = ""
-    f = open("allhtmlcode.txt", encoding = "utf-8")
+    f = open("allhtmlcode.txt", encoding="utf-8")
     start += f.read()
     f.close()
     start += """
@@ -405,29 +420,49 @@ def gen_html(original, df_job, df_cc):
                  df_job.at[i, 'name'] + "    " + "</td> "
         start += "<td class='cell100 column3'>" + df_job.at[i, 'description'] + "</td>" + "</tr>"
 
-    start += """</table>
+    start += "</table>"
+    start += """
+                <a name="skills"></a>
+                </div>
+                </div>
             </div>
             </div>
         </div>
-    </div>
-</div>
-</body>
-</html>"""
+        """
 
-    # start += """<table>
-    #                 <tr>
-    #                     <th>course</th>
-    #                     <th>technical skills</th>
-    #                 </tr>"""
-    # for i in range(len(df_cc)):
-    #     start += "<tr>"
-    #     start += "<td>" + df_cc.at[i, 'Course'] + "    " + "</td>"
-    #     start += "<td>" + df_cc.at[i, 'Skill'] + "</td>" + "</tr>"
-    # start += "</table>"
-    #
-    # start += """
-    #                 </body>
-    #             </html>"""
+    start += """
+        <div class="limiter">
+        <div class="container-table100">
+            <div class="wrap-table100">
+                <div class="table100 ver1 m-b-110">
+                    <div class="table100-head">
+                        <table>
+                            <thead>
+                            <tr class="row100 head">
+                                <th class="cell100 column1">Course</th>
+                                <th class="cell100 column2">Technical Skills</th>
+                            </tr>
+                            </thead>
+                        </table>
+                    </div>
+    
+                    <div class="table100-body js-pscroll">
+                    <table>
+        """
+    for i in range(len(df_cc)):
+        start += "<tr>"
+        start += "<td class='cell100 column1'>" + df_cc.at[i, 'Course'] + "</td>"
+        start += "<td class='cell100 column2'>" + df_cc.at[i, 'Skill'] + "</td>" + "</tr>"
+
+    start += "</table>"
+    start += """
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </body>
+    </html>"""
     f = open(os.path.join("", "app", "templates", original + "op.html"), "w", encoding="utf-8")
     f.write(start)
     f.close()
@@ -479,15 +514,17 @@ def ret_all_courses(str_input):
         desc = []
         list_desc = []
         fuzzy = []
-        link = ""
+        # link = ""
         index = jobs.index(str_input)
         major = majors[index]
-        for i in range(len(link_data)):
-            if cell_link(i, "majors").lower() == major.lower():
-                link = cell_link(i, "links")
-                break
-        download(str_input + ".html", link + "#requirementstext")
-        f = open(os.path.join("", "app", "career_files", str_input + ".html"), encoding="utf-8")
+        if ":" in major:
+            parts = major.split(":")
+            major = parts[0] + parts[1]
+        # for i in range(len(link_data)):
+        #     if cell_link(i, "majors").lower() == major.lower():
+        #         link = cell_link(i, "links")
+        #         break
+        f = open(os.path.join("majors", major.lower() + ".html"), encoding="utf-8")
         h_text = f.read()
         f.close()
         soup = BeautifulSoup(h_text, "html.parser")
@@ -520,7 +557,7 @@ def ret_all_courses(str_input):
         df_courses = df_courses.reset_index(drop=True)
         df_courses = df_courses.drop_duplicates(subset=["course"], keep="first")
         df_courses = df_courses.reset_index(drop=True)
-        return df_courses[df_courses["fuzz"]>30]
+        return df_courses[df_courses["fuzz"] > 30]
     else:
         print("job not in jobs list")
 
@@ -559,14 +596,13 @@ def search_name_codes(str_input, codes):
     list_fuzz = []
     prio = []
 
-    for each in codes:
-        for i in range(len(csv_data)):
-            count = 0
-            if each in cell(i, "Code"):
-                for every in str_input.split(" "):
-                    for one in cell(i, "Description").split(" "):
-                        if fuzz.token_sort_ratio(one, every) > 85:
-                            count += 1
+    for i in range(len(csv_data)):
+        count = 0
+        if cell(i, "Code")[:-4] in codes:
+            for every in str_input.split(" "):
+                for one in cell(i, "Description").split(" "):
+                    if fuzz.token_sort_ratio(one, every) > 85:
+                        count += 1
             if count > 0:
                 list_c.append(cell(i, "Code"))
                 list_name.append(cell(i, "Name"))
@@ -590,12 +626,12 @@ def map_skill_career(str_input, codes):
     for j in range(len(df_skills)):
         for i in range(len(csv_data)):
             if cell(i, "Code")[:-4] in codes:
-                c_name = ret_lemmatized(cell(i, "Name").lower())
-                c_desc = ret_lemmatized(cell(i, "Description").lower())
+                c_name = (cell(i, "Name").lower())
+                c_desc = (cell(i, "Description").lower())
                 each = df_skills.at[j, "skill name"]
                 if each.lower() in list_common:
                     continue
-                each_lemma = ret_lemmatized(each.lower())
+                each_lemma = (each.lower())
                 each_list = each_lemma.split(" ")
                 count_name = 0
                 count_desc = 0
@@ -633,12 +669,21 @@ def map_skill_career(str_input, codes):
 
 
 def main_career(job_selected):
-    nltk.data.path.append('./nltk_data/corpora/')
+    # nltk.data.path.append('./nltk_data/corpora/')
     df_courses = ret_all_courses(job_selected)
     codes = ret_main_codes(df_courses)
+    if "" in codes:
+        codes.remove("")
     df_script = search_name_codes(job_selected, codes)
     df_final = pandas.concat([df_courses, df_script])
     df_final = df_final.drop_duplicates(subset='course', keep="first")
     df_final = df_final.reset_index(drop=True)
+    start = time.time()
+
     df_cc = map_skill_career(job_selected, codes)
+
+    print("skill mapper")
+    end = time.time()
+    print(end - start)
     gen_html(job_selected, df_final, df_cc)
+
