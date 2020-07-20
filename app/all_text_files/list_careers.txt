@@ -15,7 +15,7 @@ civil engineers* CIVIL ENGINEERING, B.S.
 computer hardware engineers* COMPUTER ENGINEERING, B.S.
 electrical and electronic engineers* ELECTRICAL ENGINEERING, B.S.
 stock analyst* BUSINESS: FINANCE, INVESTMENT, AND BANKING, BBA
-cryptographer* COMPUTER SCIENCES, B.A.
+cryptographer* COMPUTER SCIENCES, B.S.
 electrical and electronics drafters* ELECTRICAL ENGINEERING, B.S.
 electrical drafters* ELECTRICAL ENGINEERING, B.S.
 electrical engineering technicians* ELECTRICAL ENGINEERING, B.S.
@@ -101,7 +101,6 @@ floral designers* ART, BFA
 graphic designers* GRAPHIC DESIGN, CERTIFICATE
 interior designers* INTERIOR ARCHITECTURE, B.S.
 interpreters and translators* ENGLISH, B.S.
-media and communication equipment workers* COMMUNICATION ARTS, B.S.
 merchandise displayers and window trimmers* COMMUNICATION ARTS, B.S. 
 multimedia artists and animators* GRAPHIC DESIGN, CERTIFICATE
 music composers and arrangers* MUSIC: EDUCATION, B.M.
