@@ -8,10 +8,6 @@ from fuzzywuzzy import fuzz
 import time
 
 
-# import nltk
-# from nltk.stem import WordNetLemmatizer
-
-
 def download(filename, url):
     if os.path.exists(os.path.join("career_files", filename)):
         return
@@ -37,14 +33,6 @@ def ret_csv_data():
     header = csv_rows[0]
     data = csv_rows[1:]
     return header, data
-
-
-#
-# def ret_csv_codes():
-#     csv_rows = process_csv(os.path.join(app", "Curricular subject areas with code.csv"))
-#     header = csv_rows[0]
-#     data = csv_rows[1:]
-#     return header, data
 
 
 def ret_csv_links():
@@ -75,12 +63,6 @@ def cell(row_idx, col_name):
     return val
 
 
-# def cell_code(row_idx, col_name):
-#     col_idx = codes_header.index(col_name)
-#     val = codes_data[row_idx][col_idx]
-#     return val
-
-
 def clean_up_text(text):
     unwanted_chars = ['\n', '\t', '\r', '\xa0', 'â\x80\x93']  # Edit this to include all characters you want to remove
     for char in unwanted_chars:
@@ -104,15 +86,6 @@ def url_gen(str_input):
         new += part + "-"
     new = new[:-1]
     base_url += new + "/"
-    # if " " in str_input:
-    #     parts = str_input.split(" ")
-    #     for each in parts:
-    #         if each == parts[-1]:
-    #             base_url += each
-    #         else:
-    #             base_url += each + "+"
-    # else:
-    #     base_url += str_input
     return base_url
 
 
@@ -166,25 +139,6 @@ def foi_skills(skills):
     return df_skills
 
 
-# def ret_lemmatized(in_string):
-#     lemmatizer = WordNetLemmatizer()
-#     final = ""
-#     if " " in in_string.lower():
-#         list_words = in_string.split(" ")
-#         for i in range(len(list_words)):
-#             lemma = lemmatizer.lemmatize(list_words[i])
-#             if lemma.strip()[-3:] == "ing":
-#                 lemma = list_words[i][:-3]
-#             final += lemma + " "
-#         final = final.strip()
-#         return final
-#     else:
-#         final = lemmatizer.lemmatize(in_string)
-#         if final[-3:] == "ing":
-#             final = final[:-3]
-#         return final
-
-
 def extract_code(cou):
     index = -1
     for char in cou:
@@ -192,197 +146,6 @@ def extract_code(cou):
             index = cou.index(str(char))
             break
     return cou[:index - 1]
-
-
-def printCombination(arr, n, r):
-    sel_words = []
-    data = [0] * r
-    combinationUtil(arr, data, 0, n - 1, 0, r, sel_words)
-    return sel_words
-
-
-def combinationUtil(arr, data, start, end, index, r, sel_words):
-    if index == r:
-        out = ""
-        for j in range(r):
-            out += (str(data[j]) + " ")
-        sel_words.append(out.strip())
-        return
-    i = start
-    while i <= end and end - i + 1 >= r - index:
-        data[index] = arr[i]
-        combinationUtil(arr, data, i + 1, end, index + 1, r, sel_words)
-        i += 1
-
-
-def return_groups(in_string):
-    full_comb = []
-    list_words = in_string.split(" ")
-    num_words = len(list_words)
-    for i in range(num_words):
-        full_comb.extend(printCombination(list_words, len(list_words), i + 1))
-    return full_comb
-
-
-def grouper(str_input, list_ret):
-    grouped = []
-    for i in range(len(str_input.split(" "))):
-        smaller = []
-        for each in list_ret:
-            if len(each.split(" ")) == i + 1:
-                smaller.append(each)
-            if smaller in grouped:
-                continue
-            grouped.append(smaller)
-    return grouped
-
-
-# def list_all_combs(str_input):
-#     job_lemma = ret_lemmatized(str_input)
-#     list_ret = return_groups(job_lemma)
-#     all_comb = grouper(job_lemma, list_ret)
-#     return all_comb
-
-
-def gen_group_desc(string, str_input):
-    num_words = len(str_input.split(" "))
-    array = string.split(" ")
-
-
-# def map_career_name(str_input):
-#     all_comb = list_all_combs(str_input)
-#     list_fuzz = []
-#     prio = []
-#     list_c = []
-#     list_name = []
-#     list_desc = []
-#     for k in range(len(csv_data)):
-#         lemma_name = ret_lemmatized(cell(k, "Name").lower())
-#         for i in range(len(all_comb)):
-#             for word in all_comb[i]:
-#                 flag = 0
-#                 if " " not in word:
-#                     for each_word in lemma_name.split(" "):
-#                         if word in each_word:
-#                             flag = 1
-#                             break
-#                 if flag == 1:
-#                     break
-#                 for each_word in lemma_name.split(" "):
-#                     if fuzz.token_sort_ratio(word, each_word) > 80:
-#                         list_name.append(cell(k, "Name"))
-#                         list_c.append(cell(k, "Code"))
-#                         list_desc.append(cell(k, "Description"))
-#                         list_fuzz.append(fuzz.token_sort_ratio(word, each_word))
-#                         prio.append(len(all_comb) - i)
-#                 if word in lemma_name:
-#                     list_name.append(cell(k, "Name"))
-#                     list_c.append(cell(k, "Code"))
-#                     list_desc.append(cell(k, "Description"))
-#                     list_fuzz.append(fuzz.token_sort_ratio(word, lemma_name))
-#                     prio.append(len(all_comb) - i)
-#
-#     dict_vals = {"course": list_c, "name": list_name, "description": list_desc, "prio": prio, "list_fuzz": list_fuzz}
-#     df_job = df(dict_vals)
-#     df_job = df_job.sort_values(by=["prio", "list_fuzz"], ascending=[True, False])
-#     df_job = df_job.reset_index(drop=True)
-#     return df_job
-
-
-# def map_career_desc(str_input):
-#     list_c = []
-#     list_name = []
-#     list_desc = []
-#     list_fuzz = []
-#     prio = []
-#     skip_val = 0
-#     list_words = str_input.lower().split(" ")
-#     for i in range(len(csv_data)):
-#         lemma_name = ret_lemmatized(cell(i, "Description").lower())
-#         if len(list_words) > 1:
-#             if fuzz.token_sort_ratio(lemma_name.lower(), str_input) < 15:
-#                 skip_val += 1
-#                 continue
-#         list_lemma = lemma_name.split(" ")
-#         count = 0
-#         for every_desc in list_lemma:
-#             for each in list_words:
-#                 if fuzz.token_sort_ratio(every_desc, each.lower()) > 80:
-#                     count += 1
-#             for each in list_words:
-#                 if fuzz.token_sort_ratio(every_desc.lower(), each.lower()) > 80:
-#                     list_name.append(cell(i, "Name"))
-#                     list_c.append(cell(i, "Code"))
-#                     list_desc.append(cell(i, "Description"))
-#                     prio.append(count)
-#                     list_fuzz.append(fuzz.token_sort_ratio(every_desc.lower(), each.lower()))
-#
-#     dict_vals = {"course": list_c, "name": list_name, "description": list_desc, "prio": prio, "list_fuzz": list_fuzz}
-#     df_desc = df(dict_vals)
-#     df_desc = df_desc.sort_values(by=["prio", "list_fuzz"], ascending=[False, False])
-#     df_desc = df_desc.reset_index(drop=True)
-#     return df_desc
-
-
-# def map_career_codes(str_input):
-#     list_area = []
-#     list_abb = []
-#     list_fuzz = []
-#     prio = []
-#     list_words = str_input.lower().split(" ")
-#     for i in range(len(codes_data)):
-#         lemma_name = ret_lemmatized(cell_code(i, "subject area").lower())
-#
-#         if len(list_words) > 1:
-#             if fuzz.token_sort_ratio(lemma_name.lower(), str_input) < 15:
-#                 continue
-#         list_lemma = lemma_name.split(" ")
-#         count = 0
-#         for every_code in list_lemma:
-#             for each in list_words:
-#                 if fuzz.token_sort_ratio(every_code, each.lower()) > 80:
-#                     count += 1
-#             for each in list_words:
-#                 if fuzz.token_sort_ratio(every_code.lower(), each.lower()) > 80:
-#                     list_abb.append(cell_code(i, "abbreviation"))
-#                     list_area.append(cell_code(i, "subject area"))
-#                     prio.append(count)
-#                     list_fuzz.append(fuzz.token_sort_ratio(every_code.lower(), each.lower()))
-#
-#     dict_vals = {"abb": list_abb, "sub area": list_area, "prio": prio, "list_fuzz": list_fuzz}
-#     df_codes = df(dict_vals)
-#     df_codes = df_codes.sort_values(by=["prio", "list_fuzz"], ascending=[False, False])
-#     df_codes = df_codes.reset_index(drop=True)
-#     return df_codes
-#
-#
-# def map_code_df(str_input):
-#     list_c = []
-#     list_name = []
-#     list_desc = []
-#     prio = []
-#     df_codes = map_career_codes(str_input)
-#     main_codes = []
-#     if len(df_codes) > 0:
-#         for i in range(len(df_codes)):
-#             main_codes.append(df_codes.at[i, "abb"])
-#     if len(main_codes) > 0:
-#         count = 0
-#         for i in range(len(csv_data)):
-#             for j in range(len(main_codes)):
-#                 if main_codes[j] in cell(i, "Code"):
-#                     list_name.append(cell(i, "Name"))
-#                     list_c.append(cell(i, "Code"))
-#                     list_desc.append(cell(i, "Description"))
-#                     prio.append(count)
-#                     count += 1
-#                     break
-#
-#     dict_vals = {"course": list_c, "name": list_name, "description": list_desc, "prio": prio}
-#     df_abbs = df(dict_vals)
-#     df_abbs = df_abbs.sort_values(by=["prio"], ascending=[True])
-#     df_abbs = df_abbs.reset_index(drop=True)
-#     return df_abbs
 
 
 # learn to jump within a page
@@ -419,6 +182,8 @@ def gen_html(original, df_job, df_cc):
                                                                                               "column2'>" + \
                  df_job.at[i, 'name'] + "    " + "</td> "
         start += "<td class='cell100 column3'>" + df_job.at[i, 'description'] + "</td>" + "</tr>"
+        if i == 15:
+            break
 
     start += "</table>"
     start += """
@@ -450,9 +215,19 @@ def gen_html(original, df_job, df_cc):
                     <table>
         """
     for i in range(len(df_cc)):
-        start += "<tr>"
-        start += "<td class='cell100 column1'>" + df_cc.at[i, 'Course'] + "</td>"
-        start += "<td class='cell100 column2'>" + df_cc.at[i, 'Skill'] + "</td>" + "</tr>"
+        if i == 0:
+            count = 0
+            counter = df_cc.at[i, 'Skill']
+        if counter == df_cc.at[i, 'Skill']:
+            count += 1
+        else:
+            count = 0
+            counter = df_cc.at[i, 'Skill']
+
+        if count < 5:
+            start += "<tr>"
+            start += "<td class='cell100 column1'>" + df_cc.at[i, 'Course'] + "</td>"
+            start += "<td class='cell100 column2'>" + df_cc.at[i, 'Skill'] + "</td>" + "</tr>"
 
     start += "</table>"
     start += """
@@ -466,22 +241,6 @@ def gen_html(original, df_job, df_cc):
     f = open(os.path.join("", "app", "templates", original + "op.html"), "w", encoding="utf-8")
     f.write(start)
     f.close()
-
-
-# def remove_and(str_input):
-#     words = str_input.split(" ")
-#     new_word = ""
-#     for each in words:
-#         if each[-4:] == "ists":
-#             new_word += each[:-4] + " "
-#         else:
-#             new_word += each + " "
-#     str_input = new_word
-#
-#     if "and" in words:
-#         split = str_input.split("and")
-#         str_input = split[0].strip() + " " + split[1].strip()
-#     return str_input
 
 
 def get_desc_text(course_code):
@@ -520,10 +279,6 @@ def ret_all_courses(str_input):
         if ":" in major:
             parts = major.split(":")
             major = parts[0] + parts[1]
-        # for i in range(len(link_data)):
-        #     if cell_link(i, "majors").lower() == major.lower():
-        #         link = cell_link(i, "links")
-        #         break
         f = open(os.path.join("majors", major.lower() + ".html"), encoding="utf-8")
         h_text = f.read()
         f.close()
@@ -686,4 +441,3 @@ def main_career(job_selected):
     end = time.time()
     print(end - start)
     gen_html(job_selected, df_final, df_cc)
-
