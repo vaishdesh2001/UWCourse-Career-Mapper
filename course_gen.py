@@ -423,21 +423,33 @@ def map_skill_career(str_input, codes):
     return df_cc
 
 
+def gen_html_error(original):
+    string = "<html><body><h1>Aw snap, couldn't fetch details for this job role, please <a href = " \
+             "'https://vdflask.herokuapp.com/'>try another</a> one</h1></body></html> "
+    f = open(os.path.join("", "app", "templates", original + "op.html"), "w", encoding="utf-8")
+    f.write(string)
+    f.close()
+
+
 def main_career(job_selected):
-    # nltk.data.path.append('./nltk_data/corpora/')
-    df_courses = ret_all_courses(job_selected)
-    codes = ret_main_codes(df_courses)
-    if "" in codes:
-        codes.remove("")
-    df_script = search_name_codes(job_selected, codes)
-    df_final = pandas.concat([df_courses, df_script])
-    df_final = df_final.drop_duplicates(subset='course', keep="first")
-    df_final = df_final.reset_index(drop=True)
-    start = time.time()
+    try:
+        # nltk.data.path.append('./nltk_data/corpora/')
+        df_courses = ret_all_courses(job_selected)
+        codes = ret_main_codes(df_courses)
+        if "" in codes:
+            codes.remove("")
+        df_script = search_name_codes(job_selected, codes)
+        df_final = pandas.concat([df_courses, df_script])
+        df_final = df_final.drop_duplicates(subset='course', keep="first")
+        df_final = df_final.reset_index(drop=True)
+        start = time.time()
 
-    df_cc = map_skill_career(job_selected, codes)
+        df_cc = map_skill_career(job_selected, codes)
 
-    print("skill mapper")
-    end = time.time()
-    print(end - start)
-    gen_html(job_selected, df_final, df_cc)
+        print("skill mapper")
+        end = time.time()
+        print(end - start)
+        gen_html(job_selected, df_final, df_cc)
+    except:
+        gen_html_error(job_selected)
+
