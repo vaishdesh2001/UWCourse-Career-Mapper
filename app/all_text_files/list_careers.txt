@@ -9,7 +9,7 @@ automotive engineers* ENGINEERING MECHANICS, B.S.
 biochemical engineers* BIOCHEMISTRY, B.A. (L&S)
 biomedical engineers* BIOMEDICAL ENGINEERING, B.S.
 cartographers* CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.S.
-chemical engineers* CHEMICAL ENGINEERING, B.S., CHEMISTRY, B.A., CHEMISTRY, B.S.
+chemical engineers* CHEMICAL ENGINEERING, B.S.
 civil engineering technicians* CIVIL ENGINEERING, B.S.  
 civil engineers* CIVIL ENGINEERING, B.S.
 computer hardware engineers* COMPUTER ENGINEERING, B.S.
@@ -40,7 +40,7 @@ industrial engineering technicians* INDUSTRIAL ENGINEERING, B.S.
 industrial engineering technologists* INDUSTRIAL ENGINEERING, B.S.
 industrial engineers* INDUSTRIAL ENGINEERING, B.S.
 industrial safety and health engineers* GLOBAL HEALTH, CERTIFICATE
-landscape architects* LANDSCAPE ARCHITECTURE, BLA| LANDSCAPE ARCHITECTURE, BSLA
+landscape architects* LANDSCAPE ARCHITECTURE, BLA
 manufacturing engineering technologists* MANUFACTURING ENGINEERING, CERTIFICATE
 manufacturing engineers* MANUFACTURING ENGINEERING, CERTIFICATE
 manufacturing production technicians* MANUFACTURING ENGINEERING, CERTIFICATE
@@ -68,34 +68,34 @@ product safety engineers* PHARMACOLOGY AND TOXICOLOGY, B.S.
 radio frequency identification device specialists* PHYSICS, B.S.
 robotics engineers* COMPUTER ENGINEERING, B.S.
 robotics technicians* COMPUTER ENGINEERING, B.S.
-solar energy systems engineers* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE| ENGINEERING PHYSICS, B.S.
-surveying and mapping technicians* CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.A.| CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.S.
-surveying technicians* STATISTICS, B.S.| CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.S.
-surveyors* STATISTICS, B.S.| CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.S.
+solar energy systems engineers* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE
+surveying and mapping technicians* CARTOGRAPHY AND GEOGRAPHIC INFORMATION SYSTEMS, B.A.
+surveying technicians* STATISTICS, B.S.
+surveyors* STATISTICS, B.S.
 transportation engineers* MECHANICAL ENGINEERING, B.S.
-validation engineers* STATISTICS, B.S.| DATA SCIENCE, B.S.
-water/wastewater engineers* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE| ENGINEERING PHYSICS, B.S.
-wind energy engineers* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE| ENGINEERING PHYSICS, B.S.
-actors* COMMUNICATION ARTS, B.S.| ART EDUCATION, B.S.
-art directors* ART EDUCATION, B.S.| ART, BFA| ART HISTORY, B.S.| ART HISTORY, CERTIFICATE
-artists and related workers, all other* ART EDUCATION, B.S.| ART, BFA| ART HISTORY, B.S.| ART HISTORY, CERTIFICATE
-athletes and sports competitors* KINESIOLOGY, B.S.| PHYSICAL EDUCATION, B.S.
+validation engineers* STATISTICS, B.S.
+water/wastewater engineers* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE
+wind energy engineers* ENGINEERING FOR ENERGY SUSTAINABILITY, CERTIFICATE
+actors* COMMUNICATION ARTS, B.S.
+art directors* ART EDUCATION, B.S.
+artists and related workers, all other* ART EDUCATION, B.S.
+athletes and sports competitors* KINESIOLOGY, B.S.
 audio and video equipment technicians* PHYSICS, B.S.
-broadcast news analysts* STATISTICS, B.S.| COMMUNICATION ARTS, B.S.
+broadcast news analysts* STATISTICS, B.S.
 broadcast technicians* MECHANICAL ENGINEERING, B.S.
 camera operators* MECHANICAL ENGINEERING, B.S.
-choreographers* DANCE, B.S.| DANCE, BFA
-coaches and scouts* KINESIOLOGY, B.S.| PHYSICAL EDUCATION, B.S.
+choreographers* DANCE, B.S.
+coaches and scouts* KINESIOLOGY, B.S.
 commercial and industrial designers* INDUSTRIAL ENGINEERING, B.S.
-copy writers* JOURNALISM, JBS| ENGLISH, B.S.
-craft artists* ART EDUCATION, B.S.| ART, BFA| ART HISTORY, B.S.| ART HISTORY, CERTIFICATE
-dancers* DANCE, B.S.| DANCE, BFA
-designers* DESIGN STRATEGY, CERTIFICATE| GRAPHIC DESIGN, CERTIFICATE
-directors* COMMUNICATION ARTS, B.S.| ART EDUCATION, B.S.
+copy writers* JOURNALISM, JBS
+craft artists* ART EDUCATION, B.S.
+dancers* DANCE, B.S.
+designers* DESIGN STRATEGY, CERTIFICATE
+directors* COMMUNICATION ARTS, B.S.
 editors* DESIGN STRATEGY, CERTIFICATE
-entertainers and performers, sports and related workers* COMMUNICATION ARTS, B.S.| ART EDUCATION, B.S.
-fashion designers* TEXTILES AND FASHION DESIGN, B.S.| TEXTILES AND DESIGN, CERTIFICATE
-film and video editors* COMMUNICATION ARTS, B.S.| ART EDUCATION, B.S.| DESIGN STRATEGY, CERTIFICATE
+entertainers and performers, sports and related workers* COMMUNICATION ARTS, B.S.
+fashion designers* TEXTILES AND FASHION DESIGN, B.S.
+film and video editors* COMMUNICATION ARTS, B.S.
 fine artists, including painters, sculptors, and illustrators* ART, BFA
 floral designers* ART, BFA
 graphic designers* GRAPHIC DESIGN, CERTIFICATE
@@ -316,7 +316,7 @@ communications teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERT
 computer science teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
 criminal justice and law enforcement teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
 curators* HISTORY, B.S.
-economics teachers, postsecondary* ECONOMICS, B.S.| EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
+economics teachers, postsecondary* ECONOMICS, B.S.
 education teachers, postsecondary* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
 education, training, and library workers, all other* EDUCATION AND EDUCATIONAL SERVICES, CERTIFICATE
 elementary school teachers* ELEMENTARY EDUCATION, BSE
