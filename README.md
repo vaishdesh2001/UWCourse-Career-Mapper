@@ -12,8 +12,8 @@ This app accepts a career choice from the user to select specific courses in UW-
 This is a Flask application that runs on the Heroku platform. 
 - In the root directory, wsgi.py, runtime.txt, requirements.txt, nltk.txt, Procfile are all the files required for the deployment of this Flask app. 
 - Within the app directory, main.py is the Flask runner application 
-  - all the front-end files(HTML, CSS and JS files) accessed by main.py are stored within the folder named static.
-  - all files generated during the course of execution of the program are stored in the career_files folder
+  - all the front-end files(HTML, CSS and JS files) accessed by main.py are stored within the folder named static. The main html files are stored under the templates directory.
+  - all files generated during the course of execution of the program are stored in the career_files folder and the templates folder
   - this flask app runs course_gen.py that runs the main part of the program like searching courses and generating an html file for output.
 - course_gen.py contains the main search algorithm for displaying the courses(root directory)
   - course_gen.py utilizes data from all_data.csv, majors_links.csv, files under all_text_files and allhtmlcode.txt(root directory)
