@@ -5,7 +5,7 @@ https://vdflask.herokuapp.com/
 
 ## Description
 
-This app accepts a career choice from the user and uses this to select specific courses in UW-Madison based on skills required for that job role. Given a career choice, the program looks up a list of relevant skills and then uses this information to search through the courses to generate a list that would be helpful for students. Personally, the course search a few days before my enrolment date always involved me researching which of the courses I take would help me achieve my career goals. This is something students can use to explore various options before they speak to a course advisor.
+This app accepts a career choice from the user to select specific courses in UW-Madison based on skills required for that job role. Given a career choice, the program looks up a list of relevant skills and then uses this information to search through UW-Madison courses to generate a list that would be helpful for students. This is something students can use to explore various options before they speak to a course advisor.
 
 ##  Getting Started 
 
@@ -15,7 +15,7 @@ This is a Flask application that runs on the Heroku platform.
   - all the front-end files(HTML, CSS and JS files) accessed by main.py are stored within the folder named static.
   - all files generated during the course of execution of the program are stored in the career_files folder
   - this flask app runs course_gen.py that runs the main part of the program like searching courses and generating an html file for output.
-- course_gen.py(root directory)
+- course_gen.py contains the main search algorithm for displaying the courses(root directory)
   - course_gen.py utilizes data from all_data.csv, majors_links.csv, files under all_text_files and allhtmlcode.txt(root directory)
   
 ## Running the Code
